@@ -1,0 +1,33 @@
+[10.300s] Invoking command in '/home/chris/capstone/hitc_ws/src/testing_motors': PYTHONPATH=/home/chris/capstone/hitc_ws/build/testing_motors/prefix_override:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing_motors build --build-base /home/chris/capstone/hitc_ws/build/testing_motors/build install --record /home/chris/capstone/hitc_ws/build/testing_motors/install.log --single-version-externally-managed
+[11.650s] running egg_info
+[11.651s] creating ../../build/testing_motors/testing_motors.egg-info
+[11.652s] writing ../../build/testing_motors/testing_motors.egg-info/PKG-INFO
+[11.653s] writing dependency_links to ../../build/testing_motors/testing_motors.egg-info/dependency_links.txt
+[11.654s] writing entry points to ../../build/testing_motors/testing_motors.egg-info/entry_points.txt
+[11.655s] writing requirements to ../../build/testing_motors/testing_motors.egg-info/requires.txt
+[11.655s] writing top-level names to ../../build/testing_motors/testing_motors.egg-info/top_level.txt
+[11.657s] writing manifest file '../../build/testing_motors/testing_motors.egg-info/SOURCES.txt'
+[11.664s] reading manifest file '../../build/testing_motors/testing_motors.egg-info/SOURCES.txt'
+[11.667s] writing manifest file '../../build/testing_motors/testing_motors.egg-info/SOURCES.txt'
+[11.668s] running build
+[11.669s] running build_py
+[11.669s] creating /home/chris/capstone/hitc_ws/build/testing_motors/build
+[11.670s] creating /home/chris/capstone/hitc_ws/build/testing_motors/build/lib
+[11.670s] creating /home/chris/capstone/hitc_ws/build/testing_motors/build/lib/testing_motors
+[11.671s] copying testing_motors/__init__.py -> /home/chris/capstone/hitc_ws/build/testing_motors/build/lib/testing_motors
+[11.671s] running install
+[11.672s] running install_lib
+[11.675s] creating /home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages/testing_motors
+[11.676s] copying /home/chris/capstone/hitc_ws/build/testing_motors/build/lib/testing_motors/__init__.py -> /home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages/testing_motors
+[11.678s] byte-compiling /home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages/testing_motors/__init__.py to __init__.cpython-310.pyc
+[11.680s] running install_data
+[11.685s] creating /home/chris/capstone/hitc_ws/install/testing_motors/share/ament_index
+[11.685s] creating /home/chris/capstone/hitc_ws/install/testing_motors/share/ament_index/resource_index
+[11.686s] creating /home/chris/capstone/hitc_ws/install/testing_motors/share/ament_index/resource_index/packages
+[11.686s] copying resource/testing_motors -> /home/chris/capstone/hitc_ws/install/testing_motors/share/ament_index/resource_index/packages
+[11.694s] copying package.xml -> /home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors
+[11.695s] running install_egg_info
+[11.697s] Copying ../../build/testing_motors/testing_motors.egg-info to /home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages/testing_motors-0.0.0-py3.10.egg-info
+[11.703s] running install_scripts
+[11.781s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/testing_motors/install.log'
+[11.926s] Invoked command in '/home/chris/capstone/hitc_ws/src/testing_motors' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/testing_motors/prefix_override:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing_motors build --build-base /home/chris/capstone/hitc_ws/build/testing_motors/build install --record /home/chris/capstone/hitc_ws/build/testing_motors/install.log --single-version-externally-managed

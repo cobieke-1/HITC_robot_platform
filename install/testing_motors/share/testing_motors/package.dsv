@@ -1,0 +1,6 @@
+source;share/testing_motors/hook/pythonpath.ps1
+source;share/testing_motors/hook/pythonpath.dsv
+source;share/testing_motors/hook/pythonpath.sh
+source;share/testing_motors/hook/ament_prefix_path.ps1
+source;share/testing_motors/hook/ament_prefix_path.dsv
+source;share/testing_motors/hook/ament_prefix_path.sh
