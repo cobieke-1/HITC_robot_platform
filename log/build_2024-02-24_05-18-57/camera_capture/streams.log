@@ -1,0 +1,26 @@
+[13.593s] Invoking command in '/home/chris/capstone/hitc_ws/src/camera_capture': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_capture build --build-base /home/chris/capstone/hitc_ws/build/camera_capture/build install --record /home/chris/capstone/hitc_ws/build/camera_capture/install.log --single-version-externally-managed
+[16.148s] running egg_info
+[16.150s] writing ../../build/camera_capture/camera_capture.egg-info/PKG-INFO
+[16.155s] writing dependency_links to ../../build/camera_capture/camera_capture.egg-info/dependency_links.txt
+[16.163s] writing entry points to ../../build/camera_capture/camera_capture.egg-info/entry_points.txt
+[16.166s] writing requirements to ../../build/camera_capture/camera_capture.egg-info/requires.txt
+[16.169s] writing top-level names to ../../build/camera_capture/camera_capture.egg-info/top_level.txt
+[16.174s] reading manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'
+[16.181s] writing manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'
+[16.186s] running build
+[16.189s] running build_py
+[16.193s] copying camera_capture/human_checker.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture
+[16.207s] running install
+[16.225s] running install_lib
+[16.226s] copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/human_checker.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture
+[16.228s] byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/human_checker.py to human_checker.cpython-310.pyc
+[16.245s] running install_data
+[16.246s] running install_egg_info
+[16.250s] removing '/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info' (and everything under it)
+[16.250s] Copying ../../build/camera_capture/camera_capture.egg-info to /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info
+[16.261s] running install_scripts
+[16.360s] Installing camera_capture script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[16.361s] Installing human_checker script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[16.362s] Installing image_proccessing script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[16.365s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/camera_capture/install.log'
+[16.694s] Invoked command in '/home/chris/capstone/hitc_ws/src/camera_capture' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_capture build --build-base /home/chris/capstone/hitc_ws/build/camera_capture/build install --record /home/chris/capstone/hitc_ws/build/camera_capture/install.log --single-version-externally-managed

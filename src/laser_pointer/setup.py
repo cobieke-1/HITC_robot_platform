@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "laser_end_effector = laser_pointer.laser_end_effector:main"
+            "laser_pointer = laser_pointer.laser_end_effector:main",
+            "servo_position = laser_pointer.servo_position:main",
+            "position_publisher = laser_pointer.position_publisher:main"
         ],
     },
 )

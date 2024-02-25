@@ -1,0 +1,695 @@
+[0.000000] (-) TimerEvent: {}
+[0.002115] (camera_capture) JobQueued: {'identifier': 'camera_capture', 'dependencies': OrderedDict()}
+[0.002898] (laser_pointer) JobQueued: {'identifier': 'laser_pointer', 'dependencies': OrderedDict()}
+[0.003349] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.003775] (path_planner) JobQueued: {'identifier': 'path_planner', 'dependencies': OrderedDict()}
+[0.003924] (startup) JobQueued: {'identifier': 'startup', 'dependencies': OrderedDict()}
+[0.004146] (testing_motors) JobQueued: {'identifier': 'testing_motors', 'dependencies': OrderedDict()}
+[0.004262] (camera_capture) JobStarted: {'identifier': 'camera_capture'}
+[0.098910] (-) TimerEvent: {}
+[0.200007] (-) TimerEvent: {}
+[0.301922] (-) TimerEvent: {}
+[0.403819] (-) TimerEvent: {}
+[0.505048] (-) TimerEvent: {}
+[0.548752] (laser_pointer) JobStarted: {'identifier': 'laser_pointer'}
+[0.605277] (-) TimerEvent: {}
+[0.706832] (-) TimerEvent: {}
+[0.808537] (-) TimerEvent: {}
+[0.909515] (-) TimerEvent: {}
+[1.010455] (-) TimerEvent: {}
+[1.049944] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[1.110717] (-) TimerEvent: {}
+[1.211780] (-) TimerEvent: {}
+[1.312776] (-) TimerEvent: {}
+[1.414234] (-) TimerEvent: {}
+[1.515208] (-) TimerEvent: {}
+[1.544445] (path_planner) JobStarted: {'identifier': 'path_planner'}
+[1.615535] (-) TimerEvent: {}
+[1.716330] (-) TimerEvent: {}
+[1.817554] (-) TimerEvent: {}
+[1.919042] (-) TimerEvent: {}
+[2.019878] (-) TimerEvent: {}
+[2.120894] (-) TimerEvent: {}
+[2.222186] (-) TimerEvent: {}
+[2.323081] (-) TimerEvent: {}
+[2.423932] (-) TimerEvent: {}
+[2.524824] (-) TimerEvent: {}
+[2.625897] (-) TimerEvent: {}
+[3.782403] (-) TimerEvent: {}
+[3.884217] (-) TimerEvent: {}
+[3.985138] (-) TimerEvent: {}
+[4.086115] (-) TimerEvent: {}
+[4.187390] (-) TimerEvent: {}
+[4.289929] (-) TimerEvent: {}
+[4.391123] (-) TimerEvent: {}
+[4.492242] (-) TimerEvent: {}
+[4.593880] (-) TimerEvent: {}
+[4.694870] (-) TimerEvent: {}
+[4.795746] (-) TimerEvent: {}
+[4.896752] (-) TimerEvent: {}
+[4.997617] (-) TimerEvent: {}
+[5.098530] (-) TimerEvent: {}
+[5.199691] (-) TimerEvent: {}
+[5.302048] (-) TimerEvent: {}
+[5.403971] (-) TimerEvent: {}
+[5.507966] (-) TimerEvent: {}
+[5.609090] (-) TimerEvent: {}
+[5.710525] (-) TimerEvent: {}
+[5.813626] (-) TimerEvent: {}
+[5.915036] (-) TimerEvent: {}
+[6.017892] (-) TimerEvent: {}
+[6.121171] (-) TimerEvent: {}
+[6.223955] (-) TimerEvent: {}
+[6.326982] (-) TimerEvent: {}
+[6.429297] (-) TimerEvent: {}
+[6.534152] (-) TimerEvent: {}
+[6.635971] (-) TimerEvent: {}
+[6.737138] (-) TimerEvent: {}
+[6.839092] (-) TimerEvent: {}
+[6.941914] (-) TimerEvent: {}
+[7.044455] (-) TimerEvent: {}
+[7.145582] (-) TimerEvent: {}
+[7.246599] (-) TimerEvent: {}
+[7.347937] (-) TimerEvent: {}
+[7.449269] (-) TimerEvent: {}
+[7.553044] (-) TimerEvent: {}
+[7.658151] (-) TimerEvent: {}
+[7.772668] (-) TimerEvent: {}
+[7.874099] (-) TimerEvent: {}
+[7.975430] (-) TimerEvent: {}
+[8.078466] (-) TimerEvent: {}
+[8.191931] (-) TimerEvent: {}
+[8.295064] (-) TimerEvent: {}
+[8.401945] (-) TimerEvent: {}
+[8.505370] (-) TimerEvent: {}
+[8.607778] (-) TimerEvent: {}
+[8.708914] (-) TimerEvent: {}
+[8.809878] (-) TimerEvent: {}
+[8.911622] (-) TimerEvent: {}
+[9.012733] (-) TimerEvent: {}
+[9.113744] (-) TimerEvent: {}
+[9.214699] (-) TimerEvent: {}
+[9.315769] (-) TimerEvent: {}
+[9.420459] (-) TimerEvent: {}
+[9.521799] (-) TimerEvent: {}
+[9.626219] (-) TimerEvent: {}
+[9.727129] (-) TimerEvent: {}
+[9.827925] (-) TimerEvent: {}
+[9.928791] (-) TimerEvent: {}
+[10.030498] (-) TimerEvent: {}
+[10.132998] (-) TimerEvent: {}
+[10.233823] (-) TimerEvent: {}
+[10.334615] (-) TimerEvent: {}
+[10.435530] (-) TimerEvent: {}
+[10.536437] (-) TimerEvent: {}
+[10.637251] (-) TimerEvent: {}
+[10.738274] (-) TimerEvent: {}
+[10.840354] (-) TimerEvent: {}
+[10.943428] (-) TimerEvent: {}
+[11.044904] (-) TimerEvent: {}
+[11.146784] (-) TimerEvent: {}
+[11.251349] (-) TimerEvent: {}
+[11.353757] (-) TimerEvent: {}
+[11.455104] (-) TimerEvent: {}
+[11.555901] (-) TimerEvent: {}
+[11.656746] (-) TimerEvent: {}
+[11.757597] (-) TimerEvent: {}
+[11.858463] (-) TimerEvent: {}
+[11.959328] (-) TimerEvent: {}
+[12.060129] (-) TimerEvent: {}
+[12.161965] (-) TimerEvent: {}
+[12.268479] (-) TimerEvent: {}
+[12.369768] (-) TimerEvent: {}
+[12.470789] (-) TimerEvent: {}
+[12.571776] (-) TimerEvent: {}
+[12.672608] (-) TimerEvent: {}
+[12.773524] (-) TimerEvent: {}
+[12.874423] (-) TimerEvent: {}
+[12.975371] (-) TimerEvent: {}
+[13.076407] (-) TimerEvent: {}
+[13.177452] (-) TimerEvent: {}
+[13.279018] (-) TimerEvent: {}
+[13.380019] (-) TimerEvent: {}
+[13.481897] (-) TimerEvent: {}
+[13.582851] (-) TimerEvent: {}
+[13.684400] (-) TimerEvent: {}
+[13.803329] (-) TimerEvent: {}
+[13.905984] (-) TimerEvent: {}
+[14.011115] (-) TimerEvent: {}
+[14.117248] (-) TimerEvent: {}
+[14.221418] (-) TimerEvent: {}
+[14.327028] (-) TimerEvent: {}
+[14.435115] (-) TimerEvent: {}
+[14.539082] (-) TimerEvent: {}
+[14.640142] (-) TimerEvent: {}
+[14.741723] (-) TimerEvent: {}
+[14.845121] (-) TimerEvent: {}
+[14.947471] (-) TimerEvent: {}
+[15.069327] (-) TimerEvent: {}
+[15.172799] (-) TimerEvent: {}
+[15.277369] (-) TimerEvent: {}
+[15.378422] (-) TimerEvent: {}
+[15.483708] (-) TimerEvent: {}
+[15.585218] (-) TimerEvent: {}
+[15.687046] (-) TimerEvent: {}
+[15.791015] (-) TimerEvent: {}
+[15.899135] (-) TimerEvent: {}
+[16.001405] (-) TimerEvent: {}
+[16.103731] (-) TimerEvent: {}
+[16.206146] (-) TimerEvent: {}
+[16.309349] (-) TimerEvent: {}
+[16.411608] (-) TimerEvent: {}
+[16.513650] (-) TimerEvent: {}
+[16.616811] (-) TimerEvent: {}
+[16.733574] (-) TimerEvent: {}
+[16.835370] (-) TimerEvent: {}
+[16.937648] (-) TimerEvent: {}
+[17.039840] (-) TimerEvent: {}
+[17.145151] (-) TimerEvent: {}
+[17.249546] (-) TimerEvent: {}
+[17.353306] (-) TimerEvent: {}
+[17.455752] (-) TimerEvent: {}
+[17.558996] (-) TimerEvent: {}
+[17.663066] (-) TimerEvent: {}
+[17.764298] (-) TimerEvent: {}
+[17.867416] (-) TimerEvent: {}
+[17.976289] (-) TimerEvent: {}
+[18.081544] (-) TimerEvent: {}
+[18.182730] (-) TimerEvent: {}
+[18.284553] (-) TimerEvent: {}
+[18.395097] (-) TimerEvent: {}
+[18.496259] (-) TimerEvent: {}
+[18.611328] (-) TimerEvent: {}
+[18.720349] (-) TimerEvent: {}
+[18.824825] (-) TimerEvent: {}
+[18.936219] (-) TimerEvent: {}
+[19.043506] (-) TimerEvent: {}
+[19.148303] (-) TimerEvent: {}
+[19.250160] (-) TimerEvent: {}
+[19.366073] (-) TimerEvent: {}
+[19.468637] (-) TimerEvent: {}
+[19.579554] (-) TimerEvent: {}
+[19.684703] (-) TimerEvent: {}
+[19.788471] (-) TimerEvent: {}
+[19.892503] (-) TimerEvent: {}
+[20.007682] (-) TimerEvent: {}
+[20.112706] (-) TimerEvent: {}
+[20.216416] (-) TimerEvent: {}
+[20.319700] (-) TimerEvent: {}
+[20.421829] (-) TimerEvent: {}
+[20.523946] (-) TimerEvent: {}
+[20.652310] (-) TimerEvent: {}
+[20.759785] (-) TimerEvent: {}
+[20.876640] (-) TimerEvent: {}
+[20.981125] (-) TimerEvent: {}
+[21.085903] (-) TimerEvent: {}
+[21.192739] (-) TimerEvent: {}
+[21.304563] (-) TimerEvent: {}
+[21.417701] (-) TimerEvent: {}
+[21.524587] (-) TimerEvent: {}
+[21.635133] (-) TimerEvent: {}
+[21.738619] (-) TimerEvent: {}
+[21.847643] (-) TimerEvent: {}
+[21.950711] (-) TimerEvent: {}
+[22.059897] (-) TimerEvent: {}
+[22.156134] (path_planner) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/path_planner', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/path_planner/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/path_planner/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/path_planner', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris/capstone/hitc_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1730', 'SYSTEMD_EXEC_PID': '2056', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3590', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:28784', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-desktop:@/tmp/.ICE-unix/2037,unix/chris-desktop:/tmp/.ICE-unix/2037', 'INVOCATION_ID': 'b5ad14415ddf4907ab1846d44fbf6e8b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install/testing_motors:/home/chris/capstone/hitc_ws/install/startup:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/my_robot_description:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/image_processing:/home/chris/capstone/hitc_ws/install/camera_capture:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f0ebf256-7d52-45c0-85fe-42055dc7b3e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/path_planner', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/path_planner/prefix_override:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/image_processing/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[22.223337] (-) TimerEvent: {}
+[22.332381] (-) TimerEvent: {}
+[22.354951] (camera_capture) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_capture', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/camera_capture/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/camera_capture/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/camera_capture', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris/capstone/hitc_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1730', 'SYSTEMD_EXEC_PID': '2056', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3590', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:28784', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-desktop:@/tmp/.ICE-unix/2037,unix/chris-desktop:/tmp/.ICE-unix/2037', 'INVOCATION_ID': 'b5ad14415ddf4907ab1846d44fbf6e8b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install/testing_motors:/home/chris/capstone/hitc_ws/install/startup:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/my_robot_description:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/image_processing:/home/chris/capstone/hitc_ws/install/camera_capture:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f0ebf256-7d52-45c0-85fe-42055dc7b3e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/camera_capture', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/image_processing/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[22.432776] (-) TimerEvent: {}
+[22.538238] (-) TimerEvent: {}
+[22.640642] (-) TimerEvent: {}
+[22.743443] (-) TimerEvent: {}
+[22.845990] (-) TimerEvent: {}
+[22.955204] (-) TimerEvent: {}
+[23.063570] (-) TimerEvent: {}
+[23.106408] (my_robot_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_description', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/my_robot_description/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/my_robot_description/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/my_robot_description', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris/capstone/hitc_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1730', 'SYSTEMD_EXEC_PID': '2056', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3590', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:28784', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-desktop:@/tmp/.ICE-unix/2037,unix/chris-desktop:/tmp/.ICE-unix/2037', 'INVOCATION_ID': 'b5ad14415ddf4907ab1846d44fbf6e8b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install/testing_motors:/home/chris/capstone/hitc_ws/install/startup:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/my_robot_description:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/image_processing:/home/chris/capstone/hitc_ws/install/camera_capture:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f0ebf256-7d52-45c0-85fe-42055dc7b3e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/my_robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/my_robot_description/prefix_override:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/image_processing/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[23.164326] (-) TimerEvent: {}
+[23.272028] (-) TimerEvent: {}
+[23.386654] (-) TimerEvent: {}
+[23.490172] (-) TimerEvent: {}
+[23.592056] (-) TimerEvent: {}
+[23.693874] (-) TimerEvent: {}
+[23.800225] (-) TimerEvent: {}
+[23.907091] (-) TimerEvent: {}
+[24.011086] (-) TimerEvent: {}
+[24.115059] (-) TimerEvent: {}
+[24.217147] (-) TimerEvent: {}
+[24.323333] (-) TimerEvent: {}
+[24.425545] (-) TimerEvent: {}
+[24.535586] (-) TimerEvent: {}
+[24.637163] (-) TimerEvent: {}
+[24.661563] (laser_pointer) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/laser_pointer', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/laser_pointer/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/laser_pointer/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/laser_pointer', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris/capstone/hitc_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1730', 'SYSTEMD_EXEC_PID': '2056', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3590', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:28784', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-desktop:@/tmp/.ICE-unix/2037,unix/chris-desktop:/tmp/.ICE-unix/2037', 'INVOCATION_ID': 'b5ad14415ddf4907ab1846d44fbf6e8b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install/testing_motors:/home/chris/capstone/hitc_ws/install/startup:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/my_robot_description:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/image_processing:/home/chris/capstone/hitc_ws/install/camera_capture:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f0ebf256-7d52-45c0-85fe-42055dc7b3e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/laser_pointer', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/laser_pointer/prefix_override:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/image_processing/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[24.737733] (-) TimerEvent: {}
+[24.846007] (-) TimerEvent: {}
+[24.954396] (-) TimerEvent: {}
+[25.056347] (-) TimerEvent: {}
+[25.173954] (-) TimerEvent: {}
+[25.283001] (-) TimerEvent: {}
+[25.384565] (-) TimerEvent: {}
+[25.487037] (-) TimerEvent: {}
+[25.596073] (-) TimerEvent: {}
+[25.699890] (-) TimerEvent: {}
+[25.801859] (-) TimerEvent: {}
+[25.904262] (-) TimerEvent: {}
+[26.007139] (-) TimerEvent: {}
+[26.110185] (-) TimerEvent: {}
+[26.212391] (-) TimerEvent: {}
+[26.313483] (-) TimerEvent: {}
+[26.415518] (-) TimerEvent: {}
+[26.522178] (-) TimerEvent: {}
+[26.623843] (-) TimerEvent: {}
+[26.725477] (-) TimerEvent: {}
+[26.828000] (-) TimerEvent: {}
+[26.939214] (-) TimerEvent: {}
+[27.042278] (-) TimerEvent: {}
+[27.148507] (-) TimerEvent: {}
+[27.249570] (-) TimerEvent: {}
+[27.355347] (-) TimerEvent: {}
+[27.462518] (-) TimerEvent: {}
+[27.571020] (-) TimerEvent: {}
+[27.677179] (-) TimerEvent: {}
+[27.791054] (-) TimerEvent: {}
+[27.897304] (-) TimerEvent: {}
+[28.004081] (-) TimerEvent: {}
+[28.106739] (-) TimerEvent: {}
+[28.208099] (-) TimerEvent: {}
+[28.309670] (-) TimerEvent: {}
+[28.417895] (-) TimerEvent: {}
+[28.523313] (-) TimerEvent: {}
+[28.598479] (camera_capture) StdoutLine: {'line': b'running egg_info\n'}
+[28.612627] (camera_capture) StdoutLine: {'line': b'writing ../../build/camera_capture/camera_capture.egg-info/PKG-INFO\n'}
+[28.623181] (camera_capture) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_capture/camera_capture.egg-info/dependency_links.txt\n'}
+[28.624348] (-) TimerEvent: {}
+[28.630809] (camera_capture) StdoutLine: {'line': b'writing entry points to ../../build/camera_capture/camera_capture.egg-info/entry_points.txt\n'}
+[28.637269] (camera_capture) StdoutLine: {'line': b'writing requirements to ../../build/camera_capture/camera_capture.egg-info/requires.txt\n'}
+[28.644207] (camera_capture) StdoutLine: {'line': b'writing top-level names to ../../build/camera_capture/camera_capture.egg-info/top_level.txt\n'}
+[28.677779] (camera_capture) StdoutLine: {'line': b"reading manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'\n"}
+[28.708316] (camera_capture) StdoutLine: {'line': b"writing manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'\n"}
+[28.722642] (camera_capture) StdoutLine: {'line': b'running build\n'}
+[28.723905] (camera_capture) StdoutLine: {'line': b'running build_py\n'}
+[28.724620] (-) TimerEvent: {}
+[28.728170] (camera_capture) StdoutLine: {'line': b'copying camera_capture/human_checker.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture\n'}
+[28.729691] (camera_capture) StdoutLine: {'line': b'running install\n'}
+[28.731202] (camera_capture) StdoutLine: {'line': b'running install_lib\n'}
+[28.742158] (camera_capture) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/human_checker.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture\n'}
+[28.759889] (camera_capture) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/human_checker.py to human_checker.cpython-310.pyc\n'}
+[28.765533] (camera_capture) StdoutLine: {'line': b'running install_data\n'}
+[28.776708] (camera_capture) StdoutLine: {'line': b'running install_egg_info\n'}
+[28.792408] (camera_capture) StdoutLine: {'line': b"removing '/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[28.797085] (camera_capture) StdoutLine: {'line': b'Copying ../../build/camera_capture/camera_capture.egg-info to /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info\n'}
+[28.814298] (camera_capture) StdoutLine: {'line': b'running install_scripts\n'}
+[28.825397] (-) TimerEvent: {}
+[28.931153] (-) TimerEvent: {}
+[29.034535] (-) TimerEvent: {}
+[29.110015] (camera_capture) StdoutLine: {'line': b'Installing camera_capture script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture\n'}
+[29.112803] (camera_capture) StdoutLine: {'line': b'Installing human_checker script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture\n'}
+[29.119215] (camera_capture) StdoutLine: {'line': b'Installing image_proccessing script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture\n'}
+[29.121377] (camera_capture) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/camera_capture/install.log'\n"}
+[29.135761] (-) TimerEvent: {}
+[29.246912] (-) TimerEvent: {}
+[29.340632] (path_planner) StdoutLine: {'line': b'running egg_info\n'}
+[29.352062] (-) TimerEvent: {}
+[29.353423] (path_planner) StdoutLine: {'line': b'writing ../../build/path_planner/path_planner.egg-info/PKG-INFO\n'}
+[29.355195] (path_planner) StdoutLine: {'line': b'writing dependency_links to ../../build/path_planner/path_planner.egg-info/dependency_links.txt\n'}
+[29.368344] (path_planner) StdoutLine: {'line': b'writing entry points to ../../build/path_planner/path_planner.egg-info/entry_points.txt\n'}
+[29.369898] (path_planner) StdoutLine: {'line': b'writing requirements to ../../build/path_planner/path_planner.egg-info/requires.txt\n'}
+[29.374209] (path_planner) StdoutLine: {'line': b'writing top-level names to ../../build/path_planner/path_planner.egg-info/top_level.txt\n'}
+[29.431487] (path_planner) StdoutLine: {'line': b"reading manifest file '../../build/path_planner/path_planner.egg-info/SOURCES.txt'\n"}
+[29.447654] (path_planner) StdoutLine: {'line': b"writing manifest file '../../build/path_planner/path_planner.egg-info/SOURCES.txt'\n"}
+[29.449913] (path_planner) StdoutLine: {'line': b'running build\n'}
+[29.452070] (-) TimerEvent: {}
+[29.453213] (path_planner) StdoutLine: {'line': b'running build_py\n'}
+[29.457124] (path_planner) StdoutLine: {'line': b'running install\n'}
+[29.465148] (path_planner) StdoutLine: {'line': b'running install_lib\n'}
+[29.489909] (path_planner) StdoutLine: {'line': b'running install_data\n'}
+[29.498074] (path_planner) StdoutLine: {'line': b'running install_egg_info\n'}
+[29.544117] (path_planner) StdoutLine: {'line': b"removing '/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[29.547301] (path_planner) StdoutLine: {'line': b'Copying ../../build/path_planner/path_planner.egg-info to /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner-0.0.0-py3.10.egg-info\n'}
+[29.552966] (-) TimerEvent: {}
+[29.608309] (path_planner) StdoutLine: {'line': b'running install_scripts\n'}
+[29.654441] (-) TimerEvent: {}
+[29.671130] (my_robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[29.679253] (my_robot_description) StdoutLine: {'line': b'writing ../../build/my_robot_description/my_robot_description.egg-info/PKG-INFO\n'}
+[29.701706] (my_robot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_description/my_robot_description.egg-info/dependency_links.txt\n'}
+[29.709091] (my_robot_description) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_description/my_robot_description.egg-info/entry_points.txt\n'}
+[29.710482] (my_robot_description) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_description/my_robot_description.egg-info/requires.txt\n'}
+[29.714890] (my_robot_description) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_description/my_robot_description.egg-info/top_level.txt\n'}
+[29.727275] (my_robot_description) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'\n"}
+[29.735798] (my_robot_description) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'\n"}
+[29.740223] (my_robot_description) StdoutLine: {'line': b'running build\n'}
+[29.740876] (my_robot_description) StdoutLine: {'line': b'running build_py\n'}
+[29.741470] (my_robot_description) StdoutLine: {'line': b'running install\n'}
+[29.745943] (my_robot_description) StdoutLine: {'line': b'running install_lib\n'}
+[29.747195] (my_robot_description) StdoutLine: {'line': b'running install_data\n'}
+[29.750630] (my_robot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[29.763032] (-) TimerEvent: {}
+[29.783357] (my_robot_description) StdoutLine: {'line': b"removing '/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages/my_robot_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[29.785147] (my_robot_description) StdoutLine: {'line': b'Copying ../../build/my_robot_description/my_robot_description.egg-info to /home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages/my_robot_description-0.0.0-py3.10.egg-info\n'}
+[29.786775] (my_robot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[29.844793] (path_planner) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/path_planner/install.log'\n"}
+[29.868528] (-) TimerEvent: {}
+[29.893844] (camera_capture) CommandEnded: {'returncode': 0}
+[29.968777] (-) TimerEvent: {}
+[30.070302] (-) TimerEvent: {}
+[30.174325] (-) TimerEvent: {}
+[30.277378] (-) TimerEvent: {}
+[30.320106] (my_robot_description) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/my_robot_description/install.log'\n"}
+[30.381198] (-) TimerEvent: {}
+[30.482784] (-) TimerEvent: {}
+[30.588734] (-) TimerEvent: {}
+[30.691418] (-) TimerEvent: {}
+[30.792658] (-) TimerEvent: {}
+[30.896757] (-) TimerEvent: {}
+[30.998622] (-) TimerEvent: {}
+[31.107046] (-) TimerEvent: {}
+[31.209871] (-) TimerEvent: {}
+[31.318742] (-) TimerEvent: {}
+[31.320954] (laser_pointer) StdoutLine: {'line': b'running egg_info\n'}
+[31.328023] (laser_pointer) StdoutLine: {'line': b'writing ../../build/laser_pointer/laser_pointer.egg-info/PKG-INFO\n'}
+[31.328978] (laser_pointer) StdoutLine: {'line': b'writing dependency_links to ../../build/laser_pointer/laser_pointer.egg-info/dependency_links.txt\n'}
+[31.329752] (laser_pointer) StdoutLine: {'line': b'writing entry points to ../../build/laser_pointer/laser_pointer.egg-info/entry_points.txt\n'}
+[31.335105] (laser_pointer) StdoutLine: {'line': b'writing requirements to ../../build/laser_pointer/laser_pointer.egg-info/requires.txt\n'}
+[31.335921] (laser_pointer) StdoutLine: {'line': b'writing top-level names to ../../build/laser_pointer/laser_pointer.egg-info/top_level.txt\n'}
+[31.344074] (laser_pointer) StdoutLine: {'line': b"reading manifest file '../../build/laser_pointer/laser_pointer.egg-info/SOURCES.txt'\n"}
+[31.356146] (laser_pointer) StdoutLine: {'line': b"writing manifest file '../../build/laser_pointer/laser_pointer.egg-info/SOURCES.txt'\n"}
+[31.358566] (laser_pointer) StdoutLine: {'line': b'running build\n'}
+[31.359572] (laser_pointer) StdoutLine: {'line': b'running build_py\n'}
+[31.362461] (laser_pointer) StdoutLine: {'line': b'copying laser_pointer/servos_position.py -> /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer\n'}
+[31.364248] (laser_pointer) StdoutLine: {'line': b'running install\n'}
+[31.365791] (laser_pointer) StdoutLine: {'line': b'running install_lib\n'}
+[31.367332] (laser_pointer) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer/servos_position.py -> /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer\n'}
+[31.378370] (laser_pointer) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer/servos_position.py to servos_position.cpython-310.pyc\n'}
+[31.379368] (laser_pointer) StdoutLine: {'line': b'running install_data\n'}
+[31.380153] (laser_pointer) StdoutLine: {'line': b'running install_egg_info\n'}
+[31.395000] (laser_pointer) StdoutLine: {'line': b"removing '/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[31.395993] (laser_pointer) StdoutLine: {'line': b'Copying ../../build/laser_pointer/laser_pointer.egg-info to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer-0.0.0-py3.10.egg-info\n'}
+[31.423433] (-) TimerEvent: {}
+[31.434455] (camera_capture) JobEnded: {'identifier': 'camera_capture', 'rc': 0}
+[31.440962] (startup) JobStarted: {'identifier': 'startup'}
+[31.441530] (laser_pointer) StdoutLine: {'line': b'running install_scripts\n'}
+[31.524313] (-) TimerEvent: {}
+[31.628175] (-) TimerEvent: {}
+[31.642663] (laser_pointer) StdoutLine: {'line': b'Installing laser_pointer script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer\n'}
+[31.644496] (laser_pointer) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/laser_pointer/install.log'\n"}
+[31.729237] (-) TimerEvent: {}
+[31.830807] (-) TimerEvent: {}
+[31.933073] (-) TimerEvent: {}
+[32.034682] (-) TimerEvent: {}
+[32.136150] (-) TimerEvent: {}
+[32.237560] (-) TimerEvent: {}
+[32.340503] (-) TimerEvent: {}
+[32.442407] (-) TimerEvent: {}
+[32.544412] (-) TimerEvent: {}
+[32.621039] (path_planner) CommandEnded: {'returncode': 0}
+[32.644671] (-) TimerEvent: {}
+[32.746009] (-) TimerEvent: {}
+[32.847622] (-) TimerEvent: {}
+[32.949482] (-) TimerEvent: {}
+[33.016846] (path_planner) JobEnded: {'identifier': 'path_planner', 'rc': 0}
+[33.020243] (my_robot_description) CommandEnded: {'returncode': 0}
+[33.050231] (-) TimerEvent: {}
+[33.151349] (-) TimerEvent: {}
+[33.258620] (-) TimerEvent: {}
+[33.361723] (-) TimerEvent: {}
+[33.382532] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 0}
+[33.387558] (testing_motors) JobStarted: {'identifier': 'testing_motors'}
+[33.461974] (-) TimerEvent: {}
+[33.563189] (-) TimerEvent: {}
+[33.664845] (-) TimerEvent: {}
+[33.765693] (-) TimerEvent: {}
+[33.867788] (-) TimerEvent: {}
+[33.902774] (laser_pointer) CommandEnded: {'returncode': 0}
+[33.968516] (-) TimerEvent: {}
+[34.069279] (-) TimerEvent: {}
+[34.170986] (-) TimerEvent: {}
+[34.206045] (laser_pointer) JobEnded: {'identifier': 'laser_pointer', 'rc': 0}
+[34.271309] (-) TimerEvent: {}
+[34.372552] (-) TimerEvent: {}
+[34.473354] (-) TimerEvent: {}
+[34.574196] (-) TimerEvent: {}
+[34.675094] (-) TimerEvent: {}
+[34.775873] (-) TimerEvent: {}
+[34.876611] (-) TimerEvent: {}
+[34.977437] (-) TimerEvent: {}
+[35.078263] (-) TimerEvent: {}
+[35.179094] (-) TimerEvent: {}
+[35.279879] (-) TimerEvent: {}
+[35.380628] (-) TimerEvent: {}
+[35.481394] (-) TimerEvent: {}
+[35.582193] (-) TimerEvent: {}
+[35.683031] (-) TimerEvent: {}
+[35.783913] (-) TimerEvent: {}
+[35.885263] (-) TimerEvent: {}
+[35.986504] (-) TimerEvent: {}
+[36.088000] (-) TimerEvent: {}
+[36.189452] (-) TimerEvent: {}
+[36.290514] (-) TimerEvent: {}
+[36.391731] (-) TimerEvent: {}
+[36.492560] (-) TimerEvent: {}
+[36.593605] (-) TimerEvent: {}
+[36.694570] (-) TimerEvent: {}
+[36.795407] (-) TimerEvent: {}
+[36.896211] (-) TimerEvent: {}
+[36.997033] (-) TimerEvent: {}
+[37.097825] (-) TimerEvent: {}
+[37.198625] (-) TimerEvent: {}
+[37.299411] (-) TimerEvent: {}
+[37.400423] (-) TimerEvent: {}
+[37.501843] (-) TimerEvent: {}
+[37.604192] (-) TimerEvent: {}
+[37.707728] (-) TimerEvent: {}
+[37.810440] (-) TimerEvent: {}
+[37.911660] (-) TimerEvent: {}
+[38.015137] (-) TimerEvent: {}
+[38.116462] (-) TimerEvent: {}
+[38.218453] (-) TimerEvent: {}
+[38.319605] (-) TimerEvent: {}
+[38.420836] (-) TimerEvent: {}
+[38.522695] (-) TimerEvent: {}
+[38.626202] (-) TimerEvent: {}
+[38.728347] (-) TimerEvent: {}
+[38.834115] (-) TimerEvent: {}
+[38.939142] (-) TimerEvent: {}
+[39.044869] (-) TimerEvent: {}
+[39.153471] (-) TimerEvent: {}
+[39.259167] (-) TimerEvent: {}
+[39.363526] (-) TimerEvent: {}
+[39.468138] (-) TimerEvent: {}
+[39.570994] (-) TimerEvent: {}
+[39.673563] (-) TimerEvent: {}
+[39.776278] (-) TimerEvent: {}
+[39.879255] (-) TimerEvent: {}
+[39.983686] (-) TimerEvent: {}
+[40.085831] (-) TimerEvent: {}
+[40.190671] (-) TimerEvent: {}
+[40.300326] (-) TimerEvent: {}
+[40.407103] (-) TimerEvent: {}
+[40.512419] (-) TimerEvent: {}
+[40.624381] (-) TimerEvent: {}
+[40.727182] (-) TimerEvent: {}
+[40.832165] (-) TimerEvent: {}
+[40.935449] (-) TimerEvent: {}
+[41.038939] (-) TimerEvent: {}
+[41.148501] (-) TimerEvent: {}
+[41.252032] (-) TimerEvent: {}
+[41.357596] (-) TimerEvent: {}
+[41.463107] (-) TimerEvent: {}
+[41.565672] (-) TimerEvent: {}
+[41.671227] (-) TimerEvent: {}
+[41.774754] (-) TimerEvent: {}
+[41.880615] (-) TimerEvent: {}
+[41.983296] (-) TimerEvent: {}
+[42.087282] (-) TimerEvent: {}
+[42.191256] (-) TimerEvent: {}
+[42.294511] (-) TimerEvent: {}
+[42.397874] (-) TimerEvent: {}
+[42.500553] (-) TimerEvent: {}
+[42.605877] (-) TimerEvent: {}
+[42.711255] (-) TimerEvent: {}
+[42.815077] (-) TimerEvent: {}
+[42.919226] (-) TimerEvent: {}
+[43.023029] (-) TimerEvent: {}
+[43.126067] (-) TimerEvent: {}
+[43.231289] (-) TimerEvent: {}
+[43.339110] (-) TimerEvent: {}
+[43.442294] (-) TimerEvent: {}
+[43.547001] (-) TimerEvent: {}
+[43.652067] (-) TimerEvent: {}
+[43.754564] (-) TimerEvent: {}
+[43.863201] (-) TimerEvent: {}
+[43.967258] (-) TimerEvent: {}
+[44.071328] (-) TimerEvent: {}
+[44.178524] (-) TimerEvent: {}
+[44.282937] (-) TimerEvent: {}
+[44.387466] (-) TimerEvent: {}
+[44.492053] (-) TimerEvent: {}
+[44.596152] (-) TimerEvent: {}
+[44.699974] (-) TimerEvent: {}
+[44.803756] (-) TimerEvent: {}
+[44.905762] (-) TimerEvent: {}
+[45.007042] (-) TimerEvent: {}
+[45.109036] (-) TimerEvent: {}
+[45.215527] (-) TimerEvent: {}
+[45.317312] (-) TimerEvent: {}
+[45.427031] (-) TimerEvent: {}
+[45.528508] (-) TimerEvent: {}
+[45.631482] (-) TimerEvent: {}
+[45.738144] (-) TimerEvent: {}
+[45.843148] (-) TimerEvent: {}
+[45.951432] (-) TimerEvent: {}
+[46.055198] (-) TimerEvent: {}
+[46.163296] (-) TimerEvent: {}
+[46.267779] (-) TimerEvent: {}
+[46.371438] (-) TimerEvent: {}
+[46.475207] (-) TimerEvent: {}
+[46.579554] (-) TimerEvent: {}
+[46.689972] (-) TimerEvent: {}
+[46.799139] (-) TimerEvent: {}
+[46.902569] (-) TimerEvent: {}
+[47.005976] (-) TimerEvent: {}
+[47.111515] (-) TimerEvent: {}
+[47.179672] (startup) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/startup', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/startup/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/startup/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/startup', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris/capstone/hitc_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1730', 'SYSTEMD_EXEC_PID': '2056', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3590', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:28784', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-desktop:@/tmp/.ICE-unix/2037,unix/chris-desktop:/tmp/.ICE-unix/2037', 'INVOCATION_ID': 'b5ad14415ddf4907ab1846d44fbf6e8b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install/testing_motors:/home/chris/capstone/hitc_ws/install/startup:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/my_robot_description:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/image_processing:/home/chris/capstone/hitc_ws/install/camera_capture:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f0ebf256-7d52-45c0-85fe-42055dc7b3e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/startup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/startup/prefix_override:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/image_processing/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[47.220613] (-) TimerEvent: {}
+[47.327299] (-) TimerEvent: {}
+[47.431548] (-) TimerEvent: {}
+[47.539192] (-) TimerEvent: {}
+[47.643220] (-) TimerEvent: {}
+[47.750185] (-) TimerEvent: {}
+[47.858379] (-) TimerEvent: {}
+[47.966284] (-) TimerEvent: {}
+[48.071417] (-) TimerEvent: {}
+[48.180899] (-) TimerEvent: {}
+[48.283380] (-) TimerEvent: {}
+[48.347661] (testing_motors) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/testing_motors', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/testing_motors/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/testing_motors/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/testing_motors', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris/capstone/hitc_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1730', 'SYSTEMD_EXEC_PID': '2056', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3590', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:28784', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-desktop:@/tmp/.ICE-unix/2037,unix/chris-desktop:/tmp/.ICE-unix/2037', 'INVOCATION_ID': 'b5ad14415ddf4907ab1846d44fbf6e8b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install/testing_motors:/home/chris/capstone/hitc_ws/install/startup:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/my_robot_description:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/image_processing:/home/chris/capstone/hitc_ws/install/camera_capture:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f0ebf256-7d52-45c0-85fe-42055dc7b3e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/testing_motors', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/testing_motors/prefix_override:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/image_processing/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[48.387490] (-) TimerEvent: {}
+[48.489824] (-) TimerEvent: {}
+[48.593102] (-) TimerEvent: {}
+[48.697529] (-) TimerEvent: {}
+[48.801048] (-) TimerEvent: {}
+[48.905115] (-) TimerEvent: {}
+[49.011846] (-) TimerEvent: {}
+[49.113689] (-) TimerEvent: {}
+[49.215878] (-) TimerEvent: {}
+[49.317644] (-) TimerEvent: {}
+[49.421475] (-) TimerEvent: {}
+[49.527583] (-) TimerEvent: {}
+[49.636560] (-) TimerEvent: {}
+[49.742600] (-) TimerEvent: {}
+[49.845749] (-) TimerEvent: {}
+[49.947601] (-) TimerEvent: {}
+[50.055389] (-) TimerEvent: {}
+[50.159159] (-) TimerEvent: {}
+[50.261496] (-) TimerEvent: {}
+[50.363170] (-) TimerEvent: {}
+[50.467279] (-) TimerEvent: {}
+[50.571304] (-) TimerEvent: {}
+[50.675696] (-) TimerEvent: {}
+[50.779292] (-) TimerEvent: {}
+[50.881346] (-) TimerEvent: {}
+[50.983318] (-) TimerEvent: {}
+[51.085979] (-) TimerEvent: {}
+[51.191267] (-) TimerEvent: {}
+[51.294627] (-) TimerEvent: {}
+[51.399364] (-) TimerEvent: {}
+[51.503220] (-) TimerEvent: {}
+[51.607268] (-) TimerEvent: {}
+[51.709696] (-) TimerEvent: {}
+[51.811961] (-) TimerEvent: {}
+[51.914335] (-) TimerEvent: {}
+[52.019429] (-) TimerEvent: {}
+[52.122452] (-) TimerEvent: {}
+[52.225512] (-) TimerEvent: {}
+[52.329871] (-) TimerEvent: {}
+[52.435185] (-) TimerEvent: {}
+[52.541708] (-) TimerEvent: {}
+[52.647917] (-) TimerEvent: {}
+[52.757273] (-) TimerEvent: {}
+[52.871164] (-) TimerEvent: {}
+[52.974277] (-) TimerEvent: {}
+[52.979352] (startup) StdoutLine: {'line': b'running egg_info\n'}
+[52.988388] (startup) StdoutLine: {'line': b'writing ../../build/startup/startup.egg-info/PKG-INFO\n'}
+[52.998776] (startup) StdoutLine: {'line': b'writing dependency_links to ../../build/startup/startup.egg-info/dependency_links.txt\n'}
+[53.012450] (startup) StdoutLine: {'line': b'writing entry points to ../../build/startup/startup.egg-info/entry_points.txt\n'}
+[53.017609] (startup) StdoutLine: {'line': b'writing requirements to ../../build/startup/startup.egg-info/requires.txt\n'}
+[53.020254] (startup) StdoutLine: {'line': b'writing top-level names to ../../build/startup/startup.egg-info/top_level.txt\n'}
+[53.067505] (startup) StdoutLine: {'line': b"reading manifest file '../../build/startup/startup.egg-info/SOURCES.txt'\n"}
+[53.076833] (-) TimerEvent: {}
+[53.083182] (startup) StdoutLine: {'line': b"writing manifest file '../../build/startup/startup.egg-info/SOURCES.txt'\n"}
+[53.084713] (startup) StdoutLine: {'line': b'running build\n'}
+[53.086446] (startup) StdoutLine: {'line': b'running build_py\n'}
+[53.108154] (startup) StdoutLine: {'line': b'running install\n'}
+[53.113721] (startup) StdoutLine: {'line': b'running install_lib\n'}
+[53.135366] (startup) StdoutLine: {'line': b'running install_data\n'}
+[53.140353] (startup) StdoutLine: {'line': b'running install_egg_info\n'}
+[53.171218] (startup) StdoutLine: {'line': b"removing '/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages/startup-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[53.179167] (startup) StdoutLine: {'line': b'Copying ../../build/startup/startup.egg-info to /home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages/startup-0.0.0-py3.10.egg-info\n'}
+[53.180195] (-) TimerEvent: {}
+[53.206047] (startup) StdoutLine: {'line': b'running install_scripts\n'}
+[53.280492] (-) TimerEvent: {}
+[53.383189] (-) TimerEvent: {}
+[53.492421] (-) TimerEvent: {}
+[53.511570] (startup) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/startup/install.log'\n"}
+[53.593101] (-) TimerEvent: {}
+[53.696207] (-) TimerEvent: {}
+[53.799980] (-) TimerEvent: {}
+[53.908145] (-) TimerEvent: {}
+[54.017877] (-) TimerEvent: {}
+[54.121271] (-) TimerEvent: {}
+[54.201138] (startup) CommandEnded: {'returncode': 0}
+[54.222206] (-) TimerEvent: {}
+[54.328393] (-) TimerEvent: {}
+[54.377397] (testing_motors) StdoutLine: {'line': b'running egg_info\n'}
+[54.397399] (testing_motors) StdoutLine: {'line': b'writing ../../build/testing_motors/testing_motors.egg-info/PKG-INFO\n'}
+[54.403694] (testing_motors) StdoutLine: {'line': b'writing dependency_links to ../../build/testing_motors/testing_motors.egg-info/dependency_links.txt\n'}
+[54.410668] (testing_motors) StdoutLine: {'line': b'writing entry points to ../../build/testing_motors/testing_motors.egg-info/entry_points.txt\n'}
+[54.415333] (testing_motors) StdoutLine: {'line': b'writing requirements to ../../build/testing_motors/testing_motors.egg-info/requires.txt\n'}
+[54.416403] (testing_motors) StdoutLine: {'line': b'writing top-level names to ../../build/testing_motors/testing_motors.egg-info/top_level.txt\n'}
+[54.428766] (-) TimerEvent: {}
+[54.446319] (testing_motors) StdoutLine: {'line': b"reading manifest file '../../build/testing_motors/testing_motors.egg-info/SOURCES.txt'\n"}
+[54.463085] (testing_motors) StdoutLine: {'line': b"writing manifest file '../../build/testing_motors/testing_motors.egg-info/SOURCES.txt'\n"}
+[54.467851] (testing_motors) StdoutLine: {'line': b'running build\n'}
+[54.473342] (testing_motors) StdoutLine: {'line': b'running build_py\n'}
+[54.475080] (testing_motors) StdoutLine: {'line': b'running install\n'}
+[54.476739] (testing_motors) StdoutLine: {'line': b'running install_lib\n'}
+[54.487370] (testing_motors) StdoutLine: {'line': b'running install_data\n'}
+[54.496885] (testing_motors) StdoutLine: {'line': b'running install_egg_info\n'}
+[54.523167] (testing_motors) StdoutLine: {'line': b"removing '/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages/testing_motors-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[54.525360] (testing_motors) StdoutLine: {'line': b'Copying ../../build/testing_motors/testing_motors.egg-info to /home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages/testing_motors-0.0.0-py3.10.egg-info\n'}
+[54.529335] (-) TimerEvent: {}
+[54.548981] (testing_motors) StdoutLine: {'line': b'running install_scripts\n'}
+[54.630315] (-) TimerEvent: {}
+[54.733896] (-) TimerEvent: {}
+[54.849199] (-) TimerEvent: {}
+[54.855551] (testing_motors) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/testing_motors/install.log'\n"}
+[54.951421] (-) TimerEvent: {}
+[55.053915] (-) TimerEvent: {}
+[55.156444] (-) TimerEvent: {}
+[55.263669] (-) TimerEvent: {}
+[55.386046] (-) TimerEvent: {}
+[55.489679] (-) TimerEvent: {}
+[55.596614] (-) TimerEvent: {}
+[55.703310] (-) TimerEvent: {}
+[55.812217] (-) TimerEvent: {}
+[55.921418] (-) TimerEvent: {}
+[56.026172] (-) TimerEvent: {}
+[56.129726] (-) TimerEvent: {}
+[56.219024] (startup) JobEnded: {'identifier': 'startup', 'rc': 0}
+[56.230477] (-) TimerEvent: {}
+[56.243366] (testing_motors) CommandEnded: {'returncode': 0}
+[56.331292] (-) TimerEvent: {}
+[56.433523] (-) TimerEvent: {}
+[56.535453] (-) TimerEvent: {}
+[56.638298] (-) TimerEvent: {}
+[56.741235] (-) TimerEvent: {}
+[56.843028] (-) TimerEvent: {}
+[56.945934] (-) TimerEvent: {}
+[57.048155] (-) TimerEvent: {}
+[57.156760] (-) TimerEvent: {}
+[57.258929] (-) TimerEvent: {}
+[57.361268] (-) TimerEvent: {}
+[57.468767] (-) TimerEvent: {}
+[57.581096] (-) TimerEvent: {}
+[57.697317] (-) TimerEvent: {}
+[57.767376] (testing_motors) JobEnded: {'identifier': 'testing_motors', 'rc': 0}
+[57.788126] (-) EventReactorShutdown: {}

@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.001744] (-) JobUnselected: {'identifier': 'laser_pointer'}
+[0.002440] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.002854] (-) JobUnselected: {'identifier': 'path_planner'}
+[0.003308] (-) JobUnselected: {'identifier': 'startup'}
+[0.003445] (-) JobUnselected: {'identifier': 'testing_motors'}
+[0.003656] (camera_capture) JobQueued: {'identifier': 'camera_capture', 'dependencies': OrderedDict()}
+[0.003774] (camera_capture) JobStarted: {'identifier': 'camera_capture'}
+[0.098832] (-) TimerEvent: {}
+[0.200096] (-) TimerEvent: {}
+[0.301535] (-) TimerEvent: {}
+[0.402981] (-) TimerEvent: {}
+[0.507961] (-) TimerEvent: {}
+[0.608758] (-) TimerEvent: {}
+[0.709509] (-) TimerEvent: {}
+[0.810266] (-) TimerEvent: {}
+[0.911079] (-) TimerEvent: {}
+[1.011863] (-) TimerEvent: {}
+[1.112674] (-) TimerEvent: {}
+[1.213490] (-) TimerEvent: {}
+[1.314333] (-) TimerEvent: {}
+[1.415143] (-) TimerEvent: {}
+[1.515891] (-) TimerEvent: {}
+[1.616670] (-) TimerEvent: {}
+[1.717445] (-) TimerEvent: {}
+[1.818222] (-) TimerEvent: {}
+[1.919002] (-) TimerEvent: {}
+[2.019974] (-) TimerEvent: {}
+[2.121418] (-) TimerEvent: {}
+[2.222341] (-) TimerEvent: {}
+[2.323581] (-) TimerEvent: {}
+[2.425022] (-) TimerEvent: {}
+[2.526122] (-) TimerEvent: {}
+[2.627163] (-) TimerEvent: {}
+[2.727994] (-) TimerEvent: {}
+[2.828814] (-) TimerEvent: {}
+[2.929552] (-) TimerEvent: {}
+[3.030304] (-) TimerEvent: {}
+[3.131164] (-) TimerEvent: {}
+[3.231932] (-) TimerEvent: {}
+[3.332696] (-) TimerEvent: {}
+[3.433433] (-) TimerEvent: {}
+[3.534159] (-) TimerEvent: {}
+[3.634872] (-) TimerEvent: {}
+[3.735671] (-) TimerEvent: {}
+[3.836515] (-) TimerEvent: {}
+[3.937322] (-) TimerEvent: {}
+[4.038151] (-) TimerEvent: {}
+[4.138984] (-) TimerEvent: {}
+[4.239781] (-) TimerEvent: {}
+[4.340748] (-) TimerEvent: {}
+[4.442077] (-) TimerEvent: {}
+[4.480262] (camera_capture) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_capture', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/camera_capture/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/camera_capture/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/camera_capture', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris/capstone', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1923', 'SYSTEMD_EXEC_PID': '2250', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6201', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:28272', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-desktop:@/tmp/.ICE-unix/2231,unix/chris-desktop:/tmp/.ICE-unix/2231', 'INVOCATION_ID': 'e5bf9760bc8b4ddd95526f3cb79e0187', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/capstone/hitc_ws/install/testing_motors:/home/chris/capstone/hitc_ws/install/startup:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/my_robot_description:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/image_processing:/home/chris/capstone/hitc_ws/install/camera_capture:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:acd095aa-e96f-4127-b25a-8cd5c29b65a3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/camera_capture', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/image_processing/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.542265] (-) TimerEvent: {}
+[4.643068] (-) TimerEvent: {}
+[4.743850] (-) TimerEvent: {}
+[4.844703] (-) TimerEvent: {}
+[4.945513] (-) TimerEvent: {}
+[5.046262] (-) TimerEvent: {}
+[5.146996] (-) TimerEvent: {}
+[5.247744] (-) TimerEvent: {}
+[5.348463] (-) TimerEvent: {}
+[5.449282] (-) TimerEvent: {}
+[5.550084] (-) TimerEvent: {}
+[5.650869] (-) TimerEvent: {}
+[5.751635] (-) TimerEvent: {}
+[5.852420] (-) TimerEvent: {}
+[5.953300] (-) TimerEvent: {}
+[5.972348] (camera_capture) StdoutLine: {'line': b'running egg_info\n'}
+[5.975222] (camera_capture) StdoutLine: {'line': b'writing ../../build/camera_capture/camera_capture.egg-info/PKG-INFO\n'}
+[5.977455] (camera_capture) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_capture/camera_capture.egg-info/dependency_links.txt\n'}
+[5.978850] (camera_capture) StdoutLine: {'line': b'writing entry points to ../../build/camera_capture/camera_capture.egg-info/entry_points.txt\n'}
+[5.979908] (camera_capture) StdoutLine: {'line': b'writing requirements to ../../build/camera_capture/camera_capture.egg-info/requires.txt\n'}
+[5.981301] (camera_capture) StdoutLine: {'line': b'writing top-level names to ../../build/camera_capture/camera_capture.egg-info/top_level.txt\n'}
+[5.991783] (camera_capture) StdoutLine: {'line': b"reading manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'\n"}
+[5.997812] (camera_capture) StdoutLine: {'line': b"writing manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'\n"}
+[5.999606] (camera_capture) StdoutLine: {'line': b'running build\n'}
+[6.000815] (camera_capture) StdoutLine: {'line': b'running build_py\n'}
+[6.001579] (camera_capture) StdoutLine: {'line': b'copying camera_capture/human_checker.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture\n'}
+[6.004458] (camera_capture) StdoutLine: {'line': b'running install\n'}
+[6.006550] (camera_capture) StdoutLine: {'line': b'running install_lib\n'}
+[6.010429] (camera_capture) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/human_checker.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture\n'}
+[6.014592] (camera_capture) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/human_checker.py to human_checker.cpython-310.pyc\n'}
+[6.017736] (camera_capture) StdoutLine: {'line': b'running install_data\n'}
+[6.020428] (camera_capture) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.028539] (camera_capture) StdoutLine: {'line': b"removing '/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.030598] (camera_capture) StdoutLine: {'line': b'Copying ../../build/camera_capture/camera_capture.egg-info to /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info\n'}
+[6.037782] (camera_capture) StdoutLine: {'line': b'running install_scripts\n'}
+[6.053464] (-) TimerEvent: {}
+[6.132482] (camera_capture) StdoutLine: {'line': b'Installing camera_capture script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture\n'}
+[6.133672] (camera_capture) StdoutLine: {'line': b'Installing human_checker script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture\n'}
+[6.134709] (camera_capture) StdoutLine: {'line': b'Installing image_proccessing script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture\n'}
+[6.136727] (camera_capture) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/camera_capture/install.log'\n"}
+[6.153767] (-) TimerEvent: {}
+[6.255040] (-) TimerEvent: {}
+[6.294605] (camera_capture) CommandEnded: {'returncode': 0}
+[6.355293] (-) TimerEvent: {}
+[6.456488] (-) TimerEvent: {}
+[6.557803] (-) TimerEvent: {}
+[6.606726] (camera_capture) JobEnded: {'identifier': 'camera_capture', 'rc': 0}
+[6.609962] (-) EventReactorShutdown: {}

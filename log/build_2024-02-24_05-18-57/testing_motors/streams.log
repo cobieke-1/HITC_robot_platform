@@ -1,0 +1,20 @@
+[16.919s] Invoking command in '/home/chris/capstone/hitc_ws/src/testing_motors': PYTHONPATH=/home/chris/capstone/hitc_ws/build/testing_motors/prefix_override:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing_motors build --build-base /home/chris/capstone/hitc_ws/build/testing_motors/build install --record /home/chris/capstone/hitc_ws/build/testing_motors/install.log --single-version-externally-managed
+[19.828s] running egg_info
+[19.831s] writing ../../build/testing_motors/testing_motors.egg-info/PKG-INFO
+[19.833s] writing dependency_links to ../../build/testing_motors/testing_motors.egg-info/dependency_links.txt
+[19.834s] writing entry points to ../../build/testing_motors/testing_motors.egg-info/entry_points.txt
+[19.835s] writing requirements to ../../build/testing_motors/testing_motors.egg-info/requires.txt
+[19.836s] writing top-level names to ../../build/testing_motors/testing_motors.egg-info/top_level.txt
+[19.857s] reading manifest file '../../build/testing_motors/testing_motors.egg-info/SOURCES.txt'
+[19.858s] writing manifest file '../../build/testing_motors/testing_motors.egg-info/SOURCES.txt'
+[19.860s] running build
+[19.862s] running build_py
+[19.863s] running install
+[19.865s] running install_lib
+[19.871s] running install_data
+[19.875s] running install_egg_info
+[19.883s] removing '/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages/testing_motors-0.0.0-py3.10.egg-info' (and everything under it)
+[19.885s] Copying ../../build/testing_motors/testing_motors.egg-info to /home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages/testing_motors-0.0.0-py3.10.egg-info
+[19.895s] running install_scripts
+[20.001s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/testing_motors/install.log'
+[20.225s] Invoked command in '/home/chris/capstone/hitc_ws/src/testing_motors' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/testing_motors/prefix_override:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing_motors build --build-base /home/chris/capstone/hitc_ws/build/testing_motors/build install --record /home/chris/capstone/hitc_ws/build/testing_motors/install.log --single-version-externally-managed

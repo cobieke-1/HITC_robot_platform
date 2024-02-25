@@ -1,4 +1,10 @@
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/image_processing.py
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/human_checker.py
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/camera_capture.py
 /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__init__.py
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__pycache__/image_processing.cpython-310.pyc
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__pycache__/human_checker.cpython-310.pyc
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__pycache__/camera_capture.cpython-310.pyc
 /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__pycache__/__init__.cpython-310.pyc
 /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index/resource_index/packages/camera_capture
 /home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/package.xml
@@ -9,3 +15,6 @@
 /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info/requires.txt
 /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info/PKG-INFO
 /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info/zip-safe
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture/camera_capture
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture/human_checker
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture/image_proccessing

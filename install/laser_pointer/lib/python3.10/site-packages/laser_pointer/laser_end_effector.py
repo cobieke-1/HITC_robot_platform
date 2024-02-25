@@ -2,26 +2,26 @@
 import rclpy
 import lgpio 
 from rclpy.node import Node
-class LazerEndEffector(Node):
+from std_msgs.msg import Bool
+class LaserEndEffector(Node):
     def __init__(self):
         super().__init__("laser_end_effector")
         self.get_logger().info("Lazer is ready")
-        self.create_timer(0.5,self.blink_Led)
+        self.subscriber_ = self.create_subscription(Bool, "laser_on", self.callback_laser_on,10)
         self.h = lgpio.gpiochip_open(0)
-        self.LED = 23
-        lgpio.gpio_claim_output(self.h,self.LED)
+        self.laser = 24
+        lgpio.gpio_claim_output(self.h,self.laser)
         self.currentState = 0
 
-    def blink_Led(self):
-        if self.currentState == 0:
-            self.currentState = 1
-        elif self.currentState == 1:
-            self.currentState = 0
-        lgpio.gpio_write(self.h, self.LED, self.currentState )
+    def callback_laser_on(self, laser_on):
+        if laser_on.data:
+            lgpio.gpio_write(self.h, self.laser, 1 )
+        else:
+            lgpio.gpio_write(self.h, self.laser, 0)
         
 def main(args=None):
     rclpy.init(args=args)
-    node = LazerEndEffector()
+    node = LaserEndEffector()
     rclpy.spin(node)
     rclpy.shutdown()
 if __name__ == "__main__":

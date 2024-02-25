@@ -1,0 +1,20 @@
+[8.195s] Invoking command in '/home/chris/capstone/hitc_ws/src/startup': PYTHONPATH=/home/chris/capstone/hitc_ws/build/startup/prefix_override:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/startup build --build-base /home/chris/capstone/hitc_ws/build/startup/build install --record /home/chris/capstone/hitc_ws/build/startup/install.log --single-version-externally-managed
+[9.852s] running egg_info
+[9.858s] writing ../../build/startup/startup.egg-info/PKG-INFO
+[9.861s] writing dependency_links to ../../build/startup/startup.egg-info/dependency_links.txt
+[9.862s] writing entry points to ../../build/startup/startup.egg-info/entry_points.txt
+[9.872s] writing requirements to ../../build/startup/startup.egg-info/requires.txt
+[9.872s] writing top-level names to ../../build/startup/startup.egg-info/top_level.txt
+[9.881s] reading manifest file '../../build/startup/startup.egg-info/SOURCES.txt'
+[9.885s] writing manifest file '../../build/startup/startup.egg-info/SOURCES.txt'
+[9.886s] running build
+[9.887s] running build_py
+[9.888s] running install
+[9.890s] running install_lib
+[9.891s] running install_data
+[9.894s] running install_egg_info
+[9.916s] removing '/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages/startup-0.0.0-py3.10.egg-info' (and everything under it)
+[9.918s] Copying ../../build/startup/startup.egg-info to /home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages/startup-0.0.0-py3.10.egg-info
+[9.919s] running install_scripts
+[10.024s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/startup/install.log'
+[10.564s] Invoked command in '/home/chris/capstone/hitc_ws/src/startup' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/startup/prefix_override:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/startup build --build-base /home/chris/capstone/hitc_ws/build/startup/build install --record /home/chris/capstone/hitc_ws/build/startup/install.log --single-version-externally-managed

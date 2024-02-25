@@ -1,0 +1,26 @@
+[4.717s] Invoking command in '/home/chris/capstone/hitc_ws/src/laser_pointer': PYTHONPATH=/home/chris/capstone/hitc_ws/build/laser_pointer/prefix_override:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laser_pointer build --build-base /home/chris/capstone/hitc_ws/build/laser_pointer/build install --record /home/chris/capstone/hitc_ws/build/laser_pointer/install.log --single-version-externally-managed
+[6.213s] running egg_info
+[6.216s] writing ../../build/laser_pointer/laser_pointer.egg-info/PKG-INFO
+[6.218s] writing dependency_links to ../../build/laser_pointer/laser_pointer.egg-info/dependency_links.txt
+[6.220s] writing entry points to ../../build/laser_pointer/laser_pointer.egg-info/entry_points.txt
+[6.221s] writing requirements to ../../build/laser_pointer/laser_pointer.egg-info/requires.txt
+[6.222s] writing top-level names to ../../build/laser_pointer/laser_pointer.egg-info/top_level.txt
+[6.233s] reading manifest file '../../build/laser_pointer/laser_pointer.egg-info/SOURCES.txt'
+[6.238s] writing manifest file '../../build/laser_pointer/laser_pointer.egg-info/SOURCES.txt'
+[6.239s] running build
+[6.239s] running build_py
+[6.240s] copying laser_pointer/servo_position.py -> /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer
+[6.244s] running install
+[6.245s] running install_lib
+[6.249s] copying /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer/servo_position.py -> /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer
+[6.255s] byte-compiling /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer/servo_position.py to servo_position.cpython-310.pyc
+[6.260s] running install_data
+[6.262s] running install_egg_info
+[6.270s] removing '/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer-0.0.0-py3.10.egg-info' (and everything under it)
+[6.272s] Copying ../../build/laser_pointer/laser_pointer.egg-info to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer-0.0.0-py3.10.egg-info
+[6.279s] running install_scripts
+[6.370s] Installing laser_pointer script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer
+[6.371s] Installing position_publisher script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer
+[6.372s] Installing servo_position script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer
+[6.374s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/laser_pointer/install.log'
+[6.513s] Invoked command in '/home/chris/capstone/hitc_ws/src/laser_pointer' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/laser_pointer/prefix_override:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laser_pointer build --build-base /home/chris/capstone/hitc_ws/build/laser_pointer/build install --record /home/chris/capstone/hitc_ws/build/laser_pointer/install.log --single-version-externally-managed
