@@ -1,0 +1,498 @@
+[1.001s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.001s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f19b0d6d450>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f19b0d890c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f19b0d890c0>>)
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.047s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chris/capstone/hitc_ws'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extensions ['ignore', 'ignore_ament_install']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extension 'ignore_ament_install'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extensions ['colcon_pkg']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extension 'colcon_pkg'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extension 'colcon_meta'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extensions ['ros']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extension 'ros'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extensions ['cmake', 'python']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extension 'cmake'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extension 'python'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extensions ['python_setup_py']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level) by extension 'python_setup_py'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extensions ['ignore', 'ignore_ament_install']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extension 'ignore'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extension 'ignore_ament_install'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extensions ['colcon_pkg']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extension 'colcon_pkg'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extensions ['colcon_meta']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extension 'colcon_meta'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extensions ['ros']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extension 'ros'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extensions ['cmake', 'python']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extension 'cmake'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extension 'python'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extensions ['python_setup_py']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware_Level/Encoder) by extension 'python_setup_py'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extensions ['ignore', 'ignore_ament_install']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extension 'ignore'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extension 'ignore_ament_install'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extensions ['colcon_pkg']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extension 'colcon_pkg'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extensions ['colcon_meta']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extension 'colcon_meta'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extensions ['ros']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extension 'ros'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extensions ['cmake', 'python']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extension 'cmake'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extension 'python'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extensions ['python_setup_py']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/Sensor_readings) by extension 'python_setup_py'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extensions ['ignore', 'ignore_ament_install']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extension 'ignore'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extension 'ignore_ament_install'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extensions ['colcon_pkg']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extension 'colcon_pkg'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extensions ['colcon_meta']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extension 'colcon_meta'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extensions ['ros']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extension 'ros'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extensions ['cmake', 'python']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extension 'cmake'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extension 'python'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extensions ['python_setup_py']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco) by extension 'python_setup_py'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_capture) by extensions ['ignore', 'ignore_ament_install']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_capture) by extension 'ignore'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_capture) by extension 'ignore_ament_install'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_capture) by extensions ['colcon_pkg']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_capture) by extension 'colcon_pkg'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_capture) by extensions ['colcon_meta']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_capture) by extension 'colcon_meta'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_capture) by extensions ['ros']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_capture) by extension 'ros'
+[1.064s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_capture' with type 'ros.ament_python' and name 'camera_capture'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pointer) by extensions ['ignore', 'ignore_ament_install']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pointer) by extension 'ignore'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pointer) by extension 'ignore_ament_install'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pointer) by extensions ['colcon_pkg']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pointer) by extension 'colcon_pkg'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pointer) by extensions ['colcon_meta']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pointer) by extension 'colcon_meta'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pointer) by extensions ['ros']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pointer) by extension 'ros'
+[1.065s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_pointer' with type 'ros.ament_python' and name 'laser_pointer'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[1.066s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_python' and name 'my_robot_description'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner) by extension 'ignore'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner) by extension 'ignore_ament_install'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner) by extensions ['colcon_pkg']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner) by extension 'colcon_pkg'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner) by extensions ['colcon_meta']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner) by extension 'colcon_meta'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner) by extensions ['ros']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner) by extension 'ros'
+[1.067s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_planner' with type 'ros.ament_python' and name 'path_planner'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['ignore', 'ignore_ament_install']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'ignore'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'ignore_ament_install'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['colcon_pkg']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'colcon_pkg'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['colcon_meta']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'colcon_meta'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['ros']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'ros'
+[1.067s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_arm_description' with type 'ros.ament_cmake' and name 'robot_arm_description'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/startup) by extensions ['ignore', 'ignore_ament_install']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/startup) by extension 'ignore'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/startup) by extension 'ignore_ament_install'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/startup) by extensions ['colcon_pkg']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/startup) by extension 'colcon_pkg'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/startup) by extensions ['colcon_meta']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/startup) by extension 'colcon_meta'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/startup) by extensions ['ros']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/startup) by extension 'ros'
+[1.068s] DEBUG:colcon.colcon_core.package_identification:Package 'src/startup' with type 'ros.ament_python' and name 'startup'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing_motors) by extensions ['ignore', 'ignore_ament_install']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing_motors) by extension 'ignore'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing_motors) by extension 'ignore_ament_install'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing_motors) by extensions ['colcon_pkg']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing_motors) by extension 'colcon_pkg'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing_motors) by extensions ['colcon_meta']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing_motors) by extension 'colcon_meta'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing_motors) by extensions ['ros']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing_motors) by extension 'ros'
+[1.069s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testing_motors' with type 'ros.ament_python' and name 'testing_motors'
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/chris/hitc_ws/install
+[1.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/chris/ros2_ws/install
+[1.230s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 312 installed packages in /opt/ros/humble
+[1.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'camera_capture' build argument 'cmake_args' from command line to 'None'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'camera_capture' build argument 'cmake_target' from command line to 'None'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'camera_capture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'camera_capture' build argument 'cmake_clean_cache' from command line to 'False'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'camera_capture' build argument 'cmake_clean_first' from command line to 'False'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'camera_capture' build argument 'cmake_force_configure' from command line to 'False'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'camera_capture' build argument 'ament_cmake_args' from command line to 'None'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'camera_capture' build argument 'catkin_cmake_args' from command line to 'None'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'camera_capture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.324s] DEBUG:colcon.colcon_core.verb:Building package 'camera_capture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/capstone/hitc_ws/build/camera_capture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/capstone/hitc_ws/install/camera_capture', 'merge_install': False, 'path': '/home/chris/capstone/hitc_ws/src/camera_capture', 'symlink_install': False, 'test_result_base': None}
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'laser_pointer' build argument 'cmake_args' from command line to 'None'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'laser_pointer' build argument 'cmake_target' from command line to 'None'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'laser_pointer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'laser_pointer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'laser_pointer' build argument 'cmake_clean_first' from command line to 'False'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'laser_pointer' build argument 'cmake_force_configure' from command line to 'False'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'laser_pointer' build argument 'ament_cmake_args' from command line to 'None'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'laser_pointer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'laser_pointer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.339s] DEBUG:colcon.colcon_core.verb:Building package 'laser_pointer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/capstone/hitc_ws/build/laser_pointer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/capstone/hitc_ws/install/laser_pointer', 'merge_install': False, 'path': '/home/chris/capstone/hitc_ws/src/laser_pointer', 'symlink_install': False, 'test_result_base': None}
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.354s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/capstone/hitc_ws/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/capstone/hitc_ws/install/my_robot_description', 'merge_install': False, 'path': '/home/chris/capstone/hitc_ws/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[1.368s] Level 5:colcon.colcon_core.verb:set package 'path_planner' build argument 'cmake_args' from command line to 'None'
+[1.368s] Level 5:colcon.colcon_core.verb:set package 'path_planner' build argument 'cmake_target' from command line to 'None'
+[1.368s] Level 5:colcon.colcon_core.verb:set package 'path_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.368s] Level 5:colcon.colcon_core.verb:set package 'path_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[1.368s] Level 5:colcon.colcon_core.verb:set package 'path_planner' build argument 'cmake_clean_first' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'path_planner' build argument 'cmake_force_configure' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'path_planner' build argument 'ament_cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'path_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'path_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.369s] DEBUG:colcon.colcon_core.verb:Building package 'path_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/capstone/hitc_ws/build/path_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/capstone/hitc_ws/install/path_planner', 'merge_install': False, 'path': '/home/chris/capstone/hitc_ws/src/path_planner', 'symlink_install': False, 'test_result_base': None}
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_target' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.383s] DEBUG:colcon.colcon_core.verb:Building package 'robot_arm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/capstone/hitc_ws/build/robot_arm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/capstone/hitc_ws/install/robot_arm_description', 'merge_install': False, 'path': '/home/chris/capstone/hitc_ws/src/robot_arm_description', 'symlink_install': False, 'test_result_base': None}
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'startup' build argument 'cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'startup' build argument 'cmake_target' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'startup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'startup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'startup' build argument 'cmake_clean_first' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'startup' build argument 'cmake_force_configure' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'startup' build argument 'ament_cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'startup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'startup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.398s] DEBUG:colcon.colcon_core.verb:Building package 'startup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/capstone/hitc_ws/build/startup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/capstone/hitc_ws/install/startup', 'merge_install': False, 'path': '/home/chris/capstone/hitc_ws/src/startup', 'symlink_install': False, 'test_result_base': None}
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'testing_motors' build argument 'cmake_args' from command line to 'None'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'testing_motors' build argument 'cmake_target' from command line to 'None'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'testing_motors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'testing_motors' build argument 'cmake_clean_cache' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'testing_motors' build argument 'cmake_clean_first' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'testing_motors' build argument 'cmake_force_configure' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'testing_motors' build argument 'ament_cmake_args' from command line to 'None'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'testing_motors' build argument 'catkin_cmake_args' from command line to 'None'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'testing_motors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.413s] DEBUG:colcon.colcon_core.verb:Building package 'testing_motors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/capstone/hitc_ws/build/testing_motors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/capstone/hitc_ws/install/testing_motors', 'merge_install': False, 'path': '/home/chris/capstone/hitc_ws/src/testing_motors', 'symlink_install': False, 'test_result_base': None}
+[1.428s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.443s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.443s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chris/capstone/hitc_ws/src/camera_capture' with build type 'ament_python'
+[1.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_capture', 'ament_prefix_path')
+[1.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/hook/ament_prefix_path.ps1'
+[1.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/hook/ament_prefix_path.dsv'
+[1.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/hook/ament_prefix_path.sh'
+[1.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.538s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chris/capstone/hitc_ws/src/laser_pointer' with build type 'ament_python'
+[1.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_pointer', 'ament_prefix_path')
+[1.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer/hook/ament_prefix_path.ps1'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer/hook/ament_prefix_path.dsv'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer/hook/ament_prefix_path.sh'
+[1.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.632s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chris/capstone/hitc_ws/src/my_robot_description' with build type 'ament_python'
+[1.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'ament_prefix_path')
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description/hook/ament_prefix_path.ps1'
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description/hook/ament_prefix_path.dsv'
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description/hook/ament_prefix_path.sh'
+[1.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.726s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chris/capstone/hitc_ws/src/path_planner' with build type 'ament_python'
+[1.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planner', 'ament_prefix_path')
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/path_planner/share/path_planner/hook/ament_prefix_path.ps1'
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/path_planner/share/path_planner/hook/ament_prefix_path.dsv'
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/path_planner/share/path_planner/hook/ament_prefix_path.sh'
+[1.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.823s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chris/capstone/hitc_ws/src/robot_arm_description' with build type 'ament_cmake'
+[1.823s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chris/capstone/hitc_ws/src/robot_arm_description'
+[1.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.901s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chris/capstone/hitc_ws/src/startup' with build type 'ament_python'
+[1.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('startup', 'ament_prefix_path')
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/startup/share/startup/hook/ament_prefix_path.ps1'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/startup/share/startup/hook/ament_prefix_path.dsv'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/startup/share/startup/hook/ament_prefix_path.sh'
+[1.932s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.932s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.996s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chris/capstone/hitc_ws/src/testing_motors' with build type 'ament_python'
+[1.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('testing_motors', 'ament_prefix_path')
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors/hook/ament_prefix_path.ps1'
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors/hook/ament_prefix_path.dsv'
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors/hook/ament_prefix_path.sh'
+[2.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.027s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.360s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chris/capstone/hitc_ws/src/camera_capture'
+[2.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.714s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chris/capstone/hitc_ws/src/laser_pointer'
+[2.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.061s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chris/capstone/hitc_ws/src/my_robot_description'
+[3.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.077s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.399s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chris/capstone/hitc_ws/src/path_planner'
+[3.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/capstone/hitc_ws/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake /home/chris/capstone/hitc_ws/src/robot_arm_description -DCMAKE_INSTALL_PREFIX=/home/chris/capstone/hitc_ws/install/robot_arm_description
+[3.751s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chris/capstone/hitc_ws/src/startup'
+[3.767s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.767s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.116s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chris/capstone/hitc_ws/src/testing_motors'
+[4.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/capstone/hitc_ws/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake /home/chris/capstone/hitc_ws/src/robot_arm_description -DCMAKE_INSTALL_PREFIX=/home/chris/capstone/hitc_ws/install/robot_arm_description
+[4.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/capstone/hitc_ws/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --build /home/chris/capstone/hitc_ws/build/robot_arm_description -- -j12 -l12
+[4.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/capstone/hitc_ws/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --build /home/chris/capstone/hitc_ws/build/robot_arm_description -- -j12 -l12
+[4.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/capstone/hitc_ws/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --install /home/chris/capstone/hitc_ws/build/robot_arm_description
+[4.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm_description)
+[4.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/capstone/hitc_ws/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --install /home/chris/capstone/hitc_ws/build/robot_arm_description
+[4.352s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description' for CMake module files
+[4.353s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description' for CMake config files
+[4.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_description', 'cmake_prefix_path')
+[4.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.ps1'
+[4.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.dsv'
+[4.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.sh'
+[4.383s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description/bin'
+[4.383s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description/lib/pkgconfig/robot_arm_description.pc'
+[4.383s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description/lib/python3.10/site-packages'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description/bin'
+[4.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/package.ps1'
+[4.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/package.dsv'
+[4.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/package.sh'
+[4.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/package.bash'
+[4.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/package.zsh'
+[4.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/capstone/hitc_ws/install/robot_arm_description/share/colcon-core/packages/robot_arm_description)
+[4.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm_description)
+[4.505s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description' for CMake module files
+[4.505s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description' for CMake config files
+[4.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_description', 'cmake_prefix_path')
+[4.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.ps1'
+[4.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.dsv'
+[4.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.sh'
+[4.536s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description/bin'
+[4.536s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description/lib/pkgconfig/robot_arm_description.pc'
+[4.536s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description/lib/python3.10/site-packages'
+[4.537s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/robot_arm_description/bin'
+[4.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/package.ps1'
+[4.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/package.dsv'
+[4.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/package.sh'
+[4.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/package.bash'
+[4.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/robot_arm_description/share/robot_arm_description/package.zsh'
+[4.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/capstone/hitc_ws/install/robot_arm_description/share/colcon-core/packages/robot_arm_description)
+[4.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/capstone/hitc_ws/src/camera_capture': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_capture build --build-base /home/chris/capstone/hitc_ws/build/camera_capture/build install --record /home/chris/capstone/hitc_ws/build/camera_capture/install.log --single-version-externally-managed
+[4.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/capstone/hitc_ws/src/testing_motors': PYTHONPATH=/home/chris/capstone/hitc_ws/build/testing_motors/prefix_override:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing_motors build --build-base /home/chris/capstone/hitc_ws/build/testing_motors/build install --record /home/chris/capstone/hitc_ws/build/testing_motors/install.log --single-version-externally-managed
+[4.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/capstone/hitc_ws/src/startup': PYTHONPATH=/home/chris/capstone/hitc_ws/build/startup/prefix_override:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/startup build --build-base /home/chris/capstone/hitc_ws/build/startup/build install --record /home/chris/capstone/hitc_ws/build/startup/install.log --single-version-externally-managed
+[4.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/capstone/hitc_ws/src/laser_pointer': PYTHONPATH=/home/chris/capstone/hitc_ws/build/laser_pointer/prefix_override:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laser_pointer build --build-base /home/chris/capstone/hitc_ws/build/laser_pointer/build install --record /home/chris/capstone/hitc_ws/build/laser_pointer/install.log --single-version-externally-managed
+[4.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/capstone/hitc_ws/src/path_planner': PYTHONPATH=/home/chris/capstone/hitc_ws/build/path_planner/prefix_override:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_planner build --build-base /home/chris/capstone/hitc_ws/build/path_planner/build install --record /home/chris/capstone/hitc_ws/build/path_planner/install.log --single-version-externally-managed
+[4.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/capstone/hitc_ws/src/my_robot_description': PYTHONPATH=/home/chris/capstone/hitc_ws/build/my_robot_description/prefix_override:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/chris/capstone/hitc_ws/build/my_robot_description/build install --record /home/chris/capstone/hitc_ws/build/my_robot_description/install.log --single-version-externally-managed
+[5.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/capstone/hitc_ws/src/testing_motors' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/testing_motors/prefix_override:/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing_motors build --build-base /home/chris/capstone/hitc_ws/build/testing_motors/build install --record /home/chris/capstone/hitc_ws/build/testing_motors/install.log --single-version-externally-managed
+[5.066s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/testing_motors' for CMake module files
+[5.067s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/testing_motors' for CMake config files
+[5.067s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/testing_motors/lib'
+[5.067s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/testing_motors/bin'
+[5.067s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/testing_motors/lib/pkgconfig/testing_motors.pc'
+[5.068s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages'
+[5.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('testing_motors', 'pythonpath')
+[5.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors/hook/pythonpath.ps1'
+[5.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors/hook/pythonpath.dsv'
+[5.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors/hook/pythonpath.sh'
+[5.087s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/testing_motors/bin'
+[5.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testing_motors)
+[5.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors/package.ps1'
+[5.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors/package.dsv'
+[5.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors/package.sh'
+[5.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors/package.bash'
+[5.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/testing_motors/share/testing_motors/package.zsh'
+[5.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/capstone/hitc_ws/install/testing_motors/share/colcon-core/packages/testing_motors)
+[5.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/capstone/hitc_ws/src/my_robot_description' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/my_robot_description/prefix_override:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/chris/capstone/hitc_ws/build/my_robot_description/build install --record /home/chris/capstone/hitc_ws/build/my_robot_description/install.log --single-version-externally-managed
+[5.131s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/my_robot_description' for CMake module files
+[5.131s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/my_robot_description' for CMake config files
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/my_robot_description/lib'
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/my_robot_description/bin'
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages'
+[5.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'pythonpath')
+[5.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description/hook/pythonpath.ps1'
+[5.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description/hook/pythonpath.dsv'
+[5.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description/hook/pythonpath.sh'
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/my_robot_description/bin'
+[5.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[5.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[5.174s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[5.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[5.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[5.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[5.175s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/capstone/hitc_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[5.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/capstone/hitc_ws/src/path_planner' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/path_planner/prefix_override:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_planner build --build-base /home/chris/capstone/hitc_ws/build/path_planner/build install --record /home/chris/capstone/hitc_ws/build/path_planner/install.log --single-version-externally-managed
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/path_planner' for CMake module files
+[5.192s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/path_planner' for CMake config files
+[5.192s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/path_planner/lib'
+[5.192s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/path_planner/bin'
+[5.192s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/path_planner/lib/pkgconfig/path_planner.pc'
+[5.193s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages'
+[5.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planner', 'pythonpath')
+[5.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/path_planner/share/path_planner/hook/pythonpath.ps1'
+[5.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/path_planner/share/path_planner/hook/pythonpath.dsv'
+[5.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/path_planner/share/path_planner/hook/pythonpath.sh'
+[5.209s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/path_planner/bin'
+[5.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_planner)
+[5.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/path_planner/share/path_planner/package.ps1'
+[5.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/capstone/hitc_ws/install/path_planner/share/path_planner/package.dsv'
+[5.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/path_planner/share/path_planner/package.sh'
+[5.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/path_planner/share/path_planner/package.bash'
+[5.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/path_planner/share/path_planner/package.zsh'
+[5.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/capstone/hitc_ws/install/path_planner/share/colcon-core/packages/path_planner)
+[5.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/capstone/hitc_ws/src/laser_pointer' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/laser_pointer/prefix_override:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laser_pointer build --build-base /home/chris/capstone/hitc_ws/build/laser_pointer/build install --record /home/chris/capstone/hitc_ws/build/laser_pointer/install.log --single-version-externally-managed
+[5.243s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/laser_pointer' for CMake module files
+[5.244s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/laser_pointer' for CMake config files
+[5.244s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/laser_pointer/lib'
+[5.244s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/laser_pointer/bin'
+[5.245s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/laser_pointer/lib/pkgconfig/laser_pointer.pc'
+[5.245s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages'
+[5.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_pointer', 'pythonpath')
+[5.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer/hook/pythonpath.ps1'
+[5.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer/hook/pythonpath.dsv'
+[5.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer/hook/pythonpath.sh'
+[5.261s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/laser_pointer/bin'
+[5.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_pointer)
+[5.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer/package.ps1'
+[5.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer/package.dsv'
+[5.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer/package.sh'
+[5.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer/package.bash'
+[5.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer/package.zsh'
+[5.278s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/capstone/hitc_ws/install/laser_pointer/share/colcon-core/packages/laser_pointer)
+[5.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/capstone/hitc_ws/src/camera_capture' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_capture build --build-base /home/chris/capstone/hitc_ws/build/camera_capture/build install --record /home/chris/capstone/hitc_ws/build/camera_capture/install.log --single-version-externally-managed
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/camera_capture' for CMake module files
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/camera_capture' for CMake config files
+[5.299s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/camera_capture/lib'
+[5.299s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/camera_capture/bin'
+[5.299s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/camera_capture/lib/pkgconfig/camera_capture.pc'
+[5.299s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages'
+[5.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_capture', 'pythonpath')
+[5.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/hook/pythonpath.ps1'
+[5.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/hook/pythonpath.dsv'
+[5.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/hook/pythonpath.sh'
+[5.315s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/camera_capture/bin'
+[5.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_capture)
+[5.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/package.ps1'
+[5.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/package.dsv'
+[5.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/package.sh'
+[5.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/package.bash'
+[5.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture/package.zsh'
+[5.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/capstone/hitc_ws/install/camera_capture/share/colcon-core/packages/camera_capture)
+[5.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/capstone/hitc_ws/src/startup' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/startup/prefix_override:/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/startup build --build-base /home/chris/capstone/hitc_ws/build/startup/build install --record /home/chris/capstone/hitc_ws/build/startup/install.log --single-version-externally-managed
+[5.347s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/startup' for CMake module files
+[5.348s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/startup' for CMake config files
+[5.348s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/startup/lib'
+[5.348s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/startup/bin'
+[5.348s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/startup/lib/pkgconfig/startup.pc'
+[5.349s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/startup/lib/python3.10/site-packages'
+[5.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('startup', 'pythonpath')
+[5.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/startup/share/startup/hook/pythonpath.ps1'
+[5.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/capstone/hitc_ws/install/startup/share/startup/hook/pythonpath.dsv'
+[5.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/capstone/hitc_ws/install/startup/share/startup/hook/pythonpath.sh'
+[5.365s] Level 1:colcon.colcon_core.environment:checking '/home/chris/capstone/hitc_ws/install/startup/bin'
+[5.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(startup)
+[5.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/startup/share/startup/package.ps1'
+[5.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/capstone/hitc_ws/install/startup/share/startup/package.dsv'
+[5.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/startup/share/startup/package.sh'
+[5.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/startup/share/startup/package.bash'
+[5.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/capstone/hitc_ws/install/startup/share/startup/package.zsh'
+[5.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/capstone/hitc_ws/install/startup/share/colcon-core/packages/startup)
+[5.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.382s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.382s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.382s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.403s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.403s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.403s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.416s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chris/capstone/hitc_ws/install/local_setup.ps1'
+[5.432s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chris/capstone/hitc_ws/install/_local_setup_util_ps1.py'
+[5.433s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chris/capstone/hitc_ws/install/setup.ps1'
+[5.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chris/capstone/hitc_ws/install/local_setup.sh'
+[5.450s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chris/capstone/hitc_ws/install/_local_setup_util_sh.py'
+[5.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chris/capstone/hitc_ws/install/setup.sh'
+[5.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chris/capstone/hitc_ws/install/local_setup.bash'
+[5.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chris/capstone/hitc_ws/install/setup.bash'
+[5.483s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chris/capstone/hitc_ws/install/local_setup.zsh'
+[5.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chris/capstone/hitc_ws/install/setup.zsh'

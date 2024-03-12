@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             "camera_capture = camera_capture.camera_capture:main",
             "image_proccessing = camera_capture.image_processing:main",
-            "human_checker = camera_capture.human_checker:main"
+            "safety_system = camera_capture.safety_system:main",
+            "motor_controller = camera_capture.motor_controller:main"
         ],
     },
 )

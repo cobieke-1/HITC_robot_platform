@@ -1,0 +1,33 @@
+[3.110s] Invoking command in '/home/chris/capstone/hitc_ws/src/my_robot_description': PYTHONPATH=/home/chris/capstone/hitc_ws/build/my_robot_description/prefix_override:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/chris/capstone/hitc_ws/build/my_robot_description/build install --record /home/chris/capstone/hitc_ws/build/my_robot_description/install.log --single-version-externally-managed
+[3.406s] running egg_info
+[3.406s] creating ../../build/my_robot_description/my_robot_description.egg-info
+[3.407s] writing ../../build/my_robot_description/my_robot_description.egg-info/PKG-INFO
+[3.407s] writing dependency_links to ../../build/my_robot_description/my_robot_description.egg-info/dependency_links.txt
+[3.407s] writing entry points to ../../build/my_robot_description/my_robot_description.egg-info/entry_points.txt
+[3.408s] writing requirements to ../../build/my_robot_description/my_robot_description.egg-info/requires.txt
+[3.408s] writing top-level names to ../../build/my_robot_description/my_robot_description.egg-info/top_level.txt
+[3.408s] writing manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[3.409s] reading manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[3.410s] writing manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[3.410s] running build
+[3.410s] running build_py
+[3.411s] creating /home/chris/capstone/hitc_ws/build/my_robot_description/build
+[3.411s] creating /home/chris/capstone/hitc_ws/build/my_robot_description/build/lib
+[3.411s] creating /home/chris/capstone/hitc_ws/build/my_robot_description/build/lib/my_robot_description
+[3.411s] copying my_robot_description/__init__.py -> /home/chris/capstone/hitc_ws/build/my_robot_description/build/lib/my_robot_description
+[3.411s] running install
+[3.411s] running install_lib
+[3.412s] creating /home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages/my_robot_description
+[3.412s] copying /home/chris/capstone/hitc_ws/build/my_robot_description/build/lib/my_robot_description/__init__.py -> /home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages/my_robot_description
+[3.412s] byte-compiling /home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages/my_robot_description/__init__.py to __init__.cpython-310.pyc
+[3.413s] running install_data
+[3.413s] creating /home/chris/capstone/hitc_ws/install/my_robot_description/share/ament_index
+[3.413s] creating /home/chris/capstone/hitc_ws/install/my_robot_description/share/ament_index/resource_index
+[3.413s] creating /home/chris/capstone/hitc_ws/install/my_robot_description/share/ament_index/resource_index/packages
+[3.414s] copying resource/my_robot_description -> /home/chris/capstone/hitc_ws/install/my_robot_description/share/ament_index/resource_index/packages
+[3.414s] copying package.xml -> /home/chris/capstone/hitc_ws/install/my_robot_description/share/my_robot_description
+[3.414s] running install_egg_info
+[3.415s] Copying ../../build/my_robot_description/my_robot_description.egg-info to /home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages/my_robot_description-0.0.0-py3.10.egg-info
+[3.417s] running install_scripts
+[3.439s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/my_robot_description/install.log'
+[3.482s] Invoked command in '/home/chris/capstone/hitc_ws/src/my_robot_description' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/my_robot_description/prefix_override:/home/chris/capstone/hitc_ws/install/my_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/chris/capstone/hitc_ws/build/my_robot_description/build install --record /home/chris/capstone/hitc_ws/build/my_robot_description/install.log --single-version-externally-managed

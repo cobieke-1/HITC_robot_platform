@@ -10,8 +10,9 @@ setup.py
 ../../build/camera_capture/camera_capture.egg-info/zip-safe
 camera_capture/__init__.py
 camera_capture/camera_capture.py
-camera_capture/human_checker.py
 camera_capture/image_processing.py
+camera_capture/motor_controller.py
+camera_capture/safety_system.py
 resource/camera_capture
 test/test_copyright.py
 test/test_flake8.py
