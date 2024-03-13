@@ -1,0 +1,2 @@
+Invoking command in '/home/chris/capstone/hitc_ws/src/build/HITC_platform': /usr/bin/cmake /home/chris/capstone/hitc_ws/src/hitc_platform_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chris/capstone/hitc_ws/src/install/HITC_platform
+Invoked command in '/home/chris/capstone/hitc_ws/src/build/HITC_platform' returned '1': /usr/bin/cmake /home/chris/capstone/hitc_ws/src/hitc_platform_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chris/capstone/hitc_ws/src/install/HITC_platform

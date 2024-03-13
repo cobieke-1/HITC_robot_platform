@@ -1,0 +1,29 @@
+[0.726s] Invoking command in '/home/chris/capstone/hitc_ws/src/build/HITC_platform': /usr/bin/cmake /home/chris/capstone/hitc_ws/src/hitc_platform_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chris/capstone/hitc_ws/src/install/HITC_platform
+[2.119s] -- The C compiler identification is GNU 11.4.0
+[2.120s] -- The CXX compiler identification is GNU 11.4.0
+[2.120s] -- Detecting C compiler ABI info
+[2.121s] -- Detecting C compiler ABI info - done
+[2.121s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.121s] -- Detecting C compile features
+[2.121s] -- Detecting C compile features - done
+[2.121s] -- Detecting CXX compiler ABI info
+[2.122s] -- Detecting CXX compiler ABI info - done
+[2.123s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.123s] -- Detecting CXX compile features
+[2.123s] -- Detecting CXX compile features - done
+[2.124s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.124s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.124s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.124s] -- Configuring incomplete, errors occurred!
+[2.124s] See also "/home/chris/capstone/hitc_ws/src/build/HITC_platform/CMakeFiles/CMakeOutput.log".
+[2.124s] WARNING: Package name "HITC_platform" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[2.124s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[2.124s]   ament_package_xml() package name 'HITC_platform' in '/package.xml' does not
+[2.124s]   match current PROJECT_NAME 'hitc_platform_description'.  You must call
+[2.124s]   project() with the same package name before.
+[2.124s] Call Stack (most recent call first):
+[2.125s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.125s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[2.125s] 
+[2.125s] [0m
+[2.476s] Invoked command in '/home/chris/capstone/hitc_ws/src/build/HITC_platform' returned '1': /usr/bin/cmake /home/chris/capstone/hitc_ws/src/hitc_platform_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chris/capstone/hitc_ws/src/install/HITC_platform
