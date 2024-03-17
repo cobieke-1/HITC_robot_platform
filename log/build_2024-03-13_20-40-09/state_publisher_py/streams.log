@@ -1,0 +1,37 @@
+[0.946s] Invoking command in '/home/chris/capstone/hitc_ws/src/state_publisher_py': PYTHONPATH=/home/chris/capstone/hitc_ws/build/state_publisher_py/prefix_override:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/state_publisher_py build --build-base /home/chris/capstone/hitc_ws/build/state_publisher_py/build install --record /home/chris/capstone/hitc_ws/build/state_publisher_py/install.log --single-version-externally-managed
+[1.190s] running egg_info
+[1.190s] creating ../../build/state_publisher_py/state_publisher_py.egg-info
+[1.190s] writing ../../build/state_publisher_py/state_publisher_py.egg-info/PKG-INFO
+[1.191s] writing dependency_links to ../../build/state_publisher_py/state_publisher_py.egg-info/dependency_links.txt
+[1.192s] writing entry points to ../../build/state_publisher_py/state_publisher_py.egg-info/entry_points.txt
+[1.192s] writing requirements to ../../build/state_publisher_py/state_publisher_py.egg-info/requires.txt
+[1.192s] writing top-level names to ../../build/state_publisher_py/state_publisher_py.egg-info/top_level.txt
+[1.192s] writing manifest file '../../build/state_publisher_py/state_publisher_py.egg-info/SOURCES.txt'
+[1.194s] reading manifest file '../../build/state_publisher_py/state_publisher_py.egg-info/SOURCES.txt'
+[1.194s] writing manifest file '../../build/state_publisher_py/state_publisher_py.egg-info/SOURCES.txt'
+[1.195s] running build
+[1.195s] running build_py
+[1.195s] creating /home/chris/capstone/hitc_ws/build/state_publisher_py/build
+[1.195s] creating /home/chris/capstone/hitc_ws/build/state_publisher_py/build/lib
+[1.195s] creating /home/chris/capstone/hitc_ws/build/state_publisher_py/build/lib/state_publisher_py
+[1.196s] copying state_publisher_py/state_publisher.py -> /home/chris/capstone/hitc_ws/build/state_publisher_py/build/lib/state_publisher_py
+[1.196s] copying state_publisher_py/__init__.py -> /home/chris/capstone/hitc_ws/build/state_publisher_py/build/lib/state_publisher_py
+[1.196s] running install
+[1.196s] running install_lib
+[1.197s] creating /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py
+[1.197s] copying /home/chris/capstone/hitc_ws/build/state_publisher_py/build/lib/state_publisher_py/state_publisher.py -> /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py
+[1.197s] copying /home/chris/capstone/hitc_ws/build/state_publisher_py/build/lib/state_publisher_py/__init__.py -> /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py
+[1.197s] byte-compiling /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py/state_publisher.py to state_publisher.cpython-310.pyc
+[1.198s] byte-compiling /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py/__init__.py to __init__.cpython-310.pyc
+[1.198s] running install_data
+[1.198s] creating /home/chris/capstone/hitc_ws/install/state_publisher_py/share/ament_index
+[1.199s] creating /home/chris/capstone/hitc_ws/install/state_publisher_py/share/ament_index/resource_index
+[1.199s] creating /home/chris/capstone/hitc_ws/install/state_publisher_py/share/ament_index/resource_index/packages
+[1.199s] copying resource/state_publisher_py -> /home/chris/capstone/hitc_ws/install/state_publisher_py/share/ament_index/resource_index/packages
+[1.199s] copying package.xml -> /home/chris/capstone/hitc_ws/install/state_publisher_py/share/state_publisher_py
+[1.199s] running install_egg_info
+[1.201s] Copying ../../build/state_publisher_py/state_publisher_py.egg-info to /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py-0.0.0-py3.10.egg-info
+[1.201s] running install_scripts
+[1.219s] Installing state_publisher script to /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/state_publisher_py
+[1.219s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/state_publisher_py/install.log'
+[1.239s] Invoked command in '/home/chris/capstone/hitc_ws/src/state_publisher_py' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/state_publisher_py/prefix_override:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/state_publisher_py build --build-base /home/chris/capstone/hitc_ws/build/state_publisher_py/build install --record /home/chris/capstone/hitc_ws/build/state_publisher_py/install.log --single-version-externally-managed
