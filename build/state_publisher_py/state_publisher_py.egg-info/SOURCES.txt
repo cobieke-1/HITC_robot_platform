@@ -11,6 +11,7 @@ setup.py
 resource/state_publisher_py
 state_publisher_py/__init__.py
 state_publisher_py/state_publisher.py
+state_publisher_py/test.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

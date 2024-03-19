@@ -1,0 +1,27 @@
+[4.074s] Invoking command in '/home/chris/capstone/hitc_ws/build/camera_capture': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chris/capstone/hitc_ws/build/camera_capture/build --no-deps install_data
+[4.374s] running develop
+[4.579s] running egg_info
+[4.580s] creating camera_capture.egg-info
+[4.580s] writing camera_capture.egg-info/PKG-INFO
+[4.580s] writing dependency_links to camera_capture.egg-info/dependency_links.txt
+[4.580s] writing entry points to camera_capture.egg-info/entry_points.txt
+[4.581s] writing requirements to camera_capture.egg-info/requires.txt
+[4.581s] writing top-level names to camera_capture.egg-info/top_level.txt
+[4.581s] writing manifest file 'camera_capture.egg-info/SOURCES.txt'
+[4.582s] reading manifest file 'camera_capture.egg-info/SOURCES.txt'
+[4.582s] writing manifest file 'camera_capture.egg-info/SOURCES.txt'
+[4.583s] running build_ext
+[4.584s] Creating /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera-capture.egg-link (link to .)
+[4.584s] Installing camera_capture script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[4.585s] Installing image_proccessing script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[4.585s] Installing motor_controller script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[4.585s] Installing safety_system script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[4.585s] 
+[4.585s] Installed /home/chris/capstone/hitc_ws/build/camera_capture
+[4.586s] running install_data
+[4.586s] creating /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index
+[4.586s] creating /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index/resource_index
+[4.586s] creating /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index/resource_index/packages
+[4.586s] copying resource/camera_capture -> /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index/resource_index/packages
+[4.586s] copying package.xml -> /home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture
+[4.824s] Invoked command in '/home/chris/capstone/hitc_ws/build/camera_capture' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chris/capstone/hitc_ws/build/camera_capture/build --no-deps install_data

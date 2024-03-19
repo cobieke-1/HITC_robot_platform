@@ -1,0 +1,17 @@
+[2.861s] Invoking command in '/home/chris/capstone/hitc_ws/build/trajectory_generator': PYTHONPATH=/home/chris/capstone/hitc_ws/build/trajectory_generator/prefix_override:/home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chris/capstone/hitc_ws/build/trajectory_generator/build --no-deps install_data
+[3.169s] running develop
+[3.382s] running egg_info
+[3.382s] writing trajectory_generator.egg-info/PKG-INFO
+[3.383s] writing dependency_links to trajectory_generator.egg-info/dependency_links.txt
+[3.383s] writing entry points to trajectory_generator.egg-info/entry_points.txt
+[3.383s] writing requirements to trajectory_generator.egg-info/requires.txt
+[3.384s] writing top-level names to trajectory_generator.egg-info/top_level.txt
+[3.384s] reading manifest file 'trajectory_generator.egg-info/SOURCES.txt'
+[3.385s] writing manifest file 'trajectory_generator.egg-info/SOURCES.txt'
+[3.387s] running build_ext
+[3.387s] Creating /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory-generator.egg-link (link to .)
+[3.388s] Installing trajectory_generator script to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/trajectory_generator
+[3.388s] 
+[3.388s] Installed /home/chris/capstone/hitc_ws/build/trajectory_generator
+[3.389s] running install_data
+[3.567s] Invoked command in '/home/chris/capstone/hitc_ws/build/trajectory_generator' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/trajectory_generator/prefix_override:/home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chris/capstone/hitc_ws/build/trajectory_generator/build --no-deps install_data

@@ -1,0 +1,20 @@
+[3.744s] Invoking command in '/home/chris/capstone/hitc_ws/build/camera_capture': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chris/capstone/hitc_ws/build/camera_capture/build --no-deps install_data
+[4.055s] running develop
+[4.297s] running egg_info
+[4.297s] writing camera_capture.egg-info/PKG-INFO
+[4.297s] writing dependency_links to camera_capture.egg-info/dependency_links.txt
+[4.298s] writing entry points to camera_capture.egg-info/entry_points.txt
+[4.298s] writing requirements to camera_capture.egg-info/requires.txt
+[4.298s] writing top-level names to camera_capture.egg-info/top_level.txt
+[4.299s] reading manifest file 'camera_capture.egg-info/SOURCES.txt'
+[4.300s] writing manifest file 'camera_capture.egg-info/SOURCES.txt'
+[4.302s] running build_ext
+[4.303s] Creating /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera-capture.egg-link (link to .)
+[4.303s] Installing camera_capture script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[4.303s] Installing image_proccessing script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[4.303s] Installing motor_controller script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[4.304s] Installing safety_system script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[4.304s] 
+[4.304s] Installed /home/chris/capstone/hitc_ws/build/camera_capture
+[4.304s] running install_data
+[4.421s] Invoked command in '/home/chris/capstone/hitc_ws/build/camera_capture' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chris/capstone/hitc_ws/build/camera_capture/build --no-deps install_data

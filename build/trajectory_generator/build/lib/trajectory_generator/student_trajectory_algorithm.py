@@ -69,10 +69,10 @@ class student_trajectory:
     
         #plot waypoints
 
-        # for i in range(len(rrt.Waypoints) - 1):
-        #     plt.plot([rrt.Waypoints[i][0], rrt.Waypoints[i+1][0]], [rrt.Waypoints[i][1], rrt.Waypoints[i+1][1]], 'ro', linestyle="--")
-        #     plt.pause(0.10)
+        for i in range(len(rrt.Waypoints) - 1):
+            plt.plot([rrt.Waypoints[i][0], rrt.Waypoints[i+1][0]], [rrt.Waypoints[i][1], rrt.Waypoints[i+1][1]], 'ro', linestyle="--")
+            plt.pause(0.10)
 
-        # plt.show()
+        plt.show()
 
         return list(rrt.Waypoints) # already a list() object

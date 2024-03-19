@@ -21,15 +21,13 @@ class TrajectoryGeneratorNode(Node):
         self.timer_ = self.create_timer(1,self.publish_waypoints)
         self.waypoints = student_trajectory.run_algorithm() 
         self.counter = 0
-        #use modern robotic to create final trajectory # call service ?
+        #use modern robotic to create final trajectory of joint positions. # call service ?
         
         self.curr_joint_trajectory = Float32MultiArray()
     
     def publish_waypoints(self):
-        # self.waypoints._layout._dim
-        # self.waypoints.data = list([[1.0, 10.5],[1.013, 0.4]]).
         if self.counter < len(self.waypoints):
-            self.curr_joint_trajectory.data = list(self.waypoints[self.counter])
+            self.curr_joint_trajectory.data = list(self.waypoints[self.counter])    # the list should be changed to the list of joint configurations. After I have made use of the modern_robotics library.
             self.publisher_.publish(self.curr_joint_trajectory)
             self.counter += 1
 

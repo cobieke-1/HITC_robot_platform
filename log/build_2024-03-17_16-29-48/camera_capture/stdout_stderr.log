@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating camera_capture.egg-info
+writing camera_capture.egg-info/PKG-INFO
+writing dependency_links to camera_capture.egg-info/dependency_links.txt
+writing entry points to camera_capture.egg-info/entry_points.txt
+writing requirements to camera_capture.egg-info/requires.txt
+writing top-level names to camera_capture.egg-info/top_level.txt
+writing manifest file 'camera_capture.egg-info/SOURCES.txt'
+reading manifest file 'camera_capture.egg-info/SOURCES.txt'
+writing manifest file 'camera_capture.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera-capture.egg-link (link to .)
+Installing camera_capture script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+Installing image_proccessing script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+Installing motor_controller script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+Installing safety_system script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+
+Installed /home/chris/capstone/hitc_ws/build/camera_capture
+running install_data
+creating /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index
+creating /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index/resource_index
+creating /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index/resource_index/packages
+copying resource/camera_capture -> /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index/resource_index/packages
+copying package.xml -> /home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture

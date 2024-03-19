@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing trajectory_generator.egg-info/PKG-INFO
+writing dependency_links to trajectory_generator.egg-info/dependency_links.txt
+writing entry points to trajectory_generator.egg-info/entry_points.txt
+writing requirements to trajectory_generator.egg-info/requires.txt
+writing top-level names to trajectory_generator.egg-info/top_level.txt
+reading manifest file 'trajectory_generator.egg-info/SOURCES.txt'
+writing manifest file 'trajectory_generator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory-generator.egg-link (link to .)
+Installing trajectory_generator script to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/trajectory_generator
+
+Installed /home/chris/capstone/hitc_ws/build/trajectory_generator
+running install_data

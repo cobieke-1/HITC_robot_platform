@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing laser_pointer.egg-info/PKG-INFO
+writing dependency_links to laser_pointer.egg-info/dependency_links.txt
+writing entry points to laser_pointer.egg-info/entry_points.txt
+writing requirements to laser_pointer.egg-info/requires.txt
+writing top-level names to laser_pointer.egg-info/top_level.txt
+reading manifest file 'laser_pointer.egg-info/SOURCES.txt'
+writing manifest file 'laser_pointer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser-pointer.egg-link (link to .)
+Installing laser_pointer script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer
+Installing position_publisher script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer
+Installing servo_position script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer
+
+Installed /home/chris/capstone/hitc_ws/build/laser_pointer
+running install_data
