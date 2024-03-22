@@ -1,4 +1,4 @@
-const int stepPin = 21;           
+ const int stepPin = 21;           
 const int dirPin = 19;
 
 void setup() {

@@ -5,7 +5,7 @@ import numpy as np
 print("Testing Milestone 1 : NextState functon")
 
 theta = [0,0,0] # joint angles
-theta_dot = [1, 0, 0] # joint speeds
+theta_dot = [1, 1, 1] # joint speeds
 
 current_configuration = theta
 joint_speeds = theta_dot   
@@ -39,13 +39,13 @@ print("Testing Milestone 2 : TrajectoryGenerator")
 
 Time = 4 #time for each transition between points.
 
-trajectory = m.TrajectoryGenerator(m.T_sei, m.T_sci, m.T_scg,Time)
+trajectory = m.TrajectoryGenerator([m.T_sei, m.T_sci, m.T_scg],Time)
 m.createCSV(trajectory,"path_planner/milestone2.csv")
 
 
 #testing Feedforward control
 print("Testing Milestone 3 : FeedbackControl")
-theta = [0,0,0.2]
+theta = [0,0,0]
 X_d = np.array([[0, 0, 1, 0.5], [0, 1, 0, 0], [-1, 0, 0, 0.5], [0, 0, 0, 1]])
 X_d_next = np.array([[0, 0, 1, 0.6], [0, 1, 0, 0], [-1, 0, 0, 0.3], [0, 0, 0, 1]])
 X = m.getX(m.M_0e,theta, m.B)

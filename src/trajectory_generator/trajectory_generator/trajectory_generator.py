@@ -4,7 +4,7 @@ import rclpy
 from rclpy.node import Node
 from trajectory_generator.student_trajectory_algorithm import student_trajectory
 from example_interfaces.msg import Float32MultiArray
-
+# from path_planner
 '''
 ------------------------------------------------------------
 Given the workspace in "Converted_Maze.npy" (see Converted_Maze.png)
@@ -19,9 +19,9 @@ class TrajectoryGeneratorNode(Node):
         self.get_logger().info("trajectory_generator node started. Sending student's trajectory...")
         self.publisher_ = self.create_publisher(Float32MultiArray, 'trajectory', 10)
         self.timer_ = self.create_timer(1,self.publish_waypoints)
-        self.waypoints = student_trajectory.run_algorithm() 
+        self.waypoints = student_trajectory.run_algorithm() # gets x and y positions for traversing the maze
         self.counter = 0
-        #use modern robotic to create final trajectory of joint positions. # call service ?
+        #use modern robotics to create final trajectory of joint positions. # call service ?
         
         self.curr_joint_trajectory = Float32MultiArray()
     

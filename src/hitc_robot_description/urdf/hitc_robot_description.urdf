@@ -92,7 +92,7 @@
     <child
       link="link1" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
   </joint>
   <link
     name="link2">
@@ -145,7 +145,7 @@
     <child
       link="link2" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
   </joint>
   <link
     name="end_effector">
@@ -198,6 +198,6 @@
     <child
       link="end_effector" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
   </joint>
 </robot>

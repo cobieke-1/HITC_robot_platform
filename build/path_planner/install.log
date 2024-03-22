@@ -1,8 +1,7 @@
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/__init__.py
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/milestone_arm_only.py
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/test_arm_only.py
-/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/test.py
-/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/milestone.py
+/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/cartesian_to_radians.py
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics/__init__.py
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics/__version__.py
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics/app.py
@@ -10,8 +9,7 @@
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/__pycache__/__init__.cpython-310.pyc
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/__pycache__/milestone_arm_only.cpython-310.pyc
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/__pycache__/test_arm_only.cpython-310.pyc
-/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/__pycache__/test.cpython-310.pyc
-/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/__pycache__/milestone.cpython-310.pyc
+/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/__pycache__/cartesian_to_radians.cpython-310.pyc
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics/__pycache__/__init__.cpython-310.pyc
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics/__pycache__/__version__.cpython-310.pyc
 /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics/__pycache__/app.cpython-310.pyc

@@ -2,16 +2,16 @@ import modern_robotics as mr
 import numpy as np
 
 
-start = [(450 + 120)* 0.001, -200* 0.001]
-goal =  [(450 + 120 + 250)* 0.001, 200 * 0.001]
+start = [-((450 + 120)* 0.001), (-200* 0.001)]
+goal =  [-((450 + 120 + 250)* 0.001), (200 * 0.001)]
 baseL1 = 120 * 0.001
 L12 = 350 * 0.001
 L2e = 450 * 0.001
 
 M_0e = np.array([[1, 0, 0, baseL1+L2e],[0, 1, 0, -L12], [0, 0, 1, 0],[0, 0, 0, 1]])
-B1 = [0,0,1,L12,L2e,0]
+B1 = [0,0,-1,L12,L2e,0]
 B2 = [0,0,1,0,L2e,0]
-B3 = [0,0,1,0,0,0]
+B3 = [0,0,-1,0,0,0]
 B = [B1,B2,B3]
 
 T_sei = M_0e # initial position of end-effector with respect to reference frame
@@ -59,9 +59,10 @@ MILESTONE 2 :
 '''
 
 
-def TrajectoryGenerator(T_sei, T_sci, T_scg,Time):
+def TrajectoryGenerator(points,Time):
 
     '''
+    points : [T_sei, T_sci, T_scg]
     T_sei : initial configuration of the end-effector to the reference trajectory
     T_sci : cube's initial configuration
     T_scg : final/goal configuration of  cube
@@ -75,12 +76,12 @@ def TrajectoryGenerator(T_sei, T_sci, T_scg,Time):
     T_each = (K_each+100)*0.01
     transistionStep = 0.630 * 100 #about 0.625 seconds
     transistionTime = (transistionStep + 100)*0.01
-    point1 = T_sei #start configuration for this segment
-    point2 = T_sci #start configuration for this segment
-    point3 = T_scg #goal position
+    # point1 = T_sei #start configuration for this segment
+    # point2 = T_sci #start configuration for this segment
+    # point3 = T_scg #goal position
     
-    listOfConfigurations = [point1, point2,point3]
-    listOfGripperStates = [0, 0, 0]
+    listOfConfigurations = points
+    listOfGripperStates = [1, 1, 1]
     N = np.around(listOfConfigToTrajectory(listOfConfigurations,T_each, K_each, listOfGripperStates, transistionTime,transistionStep),6)
     # createCSV(N, "CapstoneProject/milestone2.csv")
     return N # where each line is of the form : r11, r12, r13, r21, r22, r23, r31, r32, r33, px, py, pz, gripper state 
@@ -270,8 +271,8 @@ def traverseMaze(T_sci, T_scg, currConfiguration, T_sei, Kp, Ki):
     fullConfigurationList = []
     error = []
     Time = 5 #seconds between each point in the transition
-
-    refTrajList = TrajectoryGenerator(T_sei, T_sci, T_scg,Time) #first need to create the trajectory
+    points = [T_sei, T_sci, T_scg]
+    refTrajList = TrajectoryGenerator(points,Time) #first need to create the trajectory
 
     current_configuration = currConfiguration
     theta_speed_limit = [10,10,10]
@@ -289,13 +290,13 @@ def traverseMaze(T_sci, T_scg, currConfiguration, T_sei, Kp, Ki):
         commandTwist, X_error = FeedbackControl(X,X_d,X_d_next,K_p, K_i,delta_t)    # use our control system to follow the trajectory
         error.append(X_error)
         jacobian = getJacobian(theta)
-        joint_speeds = end_twist_to_joint_speeds(jacobian,commandTwist) # From the twists that we get from our contol system we derive the joint and wheel speeds.
+        joint_speeds = end_twist_to_joint_speeds(jacobian,commandTwist) # From the twists that we get from our contol system we derive the joint
         fullConfiguration = [*current_configuration, refTrajList[i-1][-1]] # joint angles and gripper state(refTrajList[i-1][-1])
         fullConfigurationList.append(fullConfiguration)      
         next_configuration = NextState(current_configuration,joint_speeds,delta_t,joint_speed_limits) # using new speeds and time passed get the next state.
         current_configuration = next_configuration
     print("Creating CSV animation")
-    createCSV(fullConfigurationList,"./joint_angle_trajectory.csv")
+    createCSV(fullConfigurationList,"/home/chris/capstone/hitc_ws/src/state_publisher_py/state_publisher_py/joint_angle_trajectory.csv")
     print("Generating error plot data")
     createCSV(error,"./error.csv", ["W_x_error","W_y_error","W_z_error","V_x_error","V_y_error","V_z_error"])
     print("Done.")
