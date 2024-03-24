@@ -1,5 +1,5 @@
- const int stepPin = 21;           
-const int dirPin = 19;
+const int stepPin = 33;           
+const int dirPin = 25;
 
 void setup() {
   // put your setup code here, to run once:
