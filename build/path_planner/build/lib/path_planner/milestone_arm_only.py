@@ -9,9 +9,9 @@ L12 = 350 * 0.001
 L2e = 450 * 0.001
 
 M_0e = np.array([[1, 0, 0, baseL1+L2e],[0, 1, 0, -L12], [0, 0, 1, 0],[0, 0, 0, 1]])
-B1 = [0,0,-1,L12,L2e,0]
+B1 = [0,0,1,L12,L2e,0]
 B2 = [0,0,1,0,L2e,0]
-B3 = [0,0,-1,0,0,0]
+B3 = [0,0,1,0,0,0]
 B = [B1,B2,B3]
 
 T_sei = M_0e # initial position of end-effector with respect to reference frame
@@ -258,8 +258,8 @@ def isJacobianSingular(jacobian):
 FINAL STEP : Completeing the Project 
 -------------------------------------------------------------------------------------
 '''
-def traverseMaze(T_sci, T_scg, currConfiguration, T_sei, Kp, Ki):
-
+# def traverseMaze(T_sci, T_scg, currConfiguration, T_sei, Kp, Ki):
+def traverseMaze(start_Transform, endTransform, remaining_waypoint_Tranforms, currConfiguration, Kp, Ki):
     '''
     - first need to create the trajectory
     - use our control system to follow the trajectory
@@ -271,7 +271,7 @@ def traverseMaze(T_sci, T_scg, currConfiguration, T_sei, Kp, Ki):
     fullConfigurationList = []
     error = []
     Time = 5 #seconds between each point in the transition
-    points = [T_sei, T_sci, T_scg]
+    points = [start_Transform, *remaining_waypoint_Tranforms, endTransform]
     refTrajList = TrajectoryGenerator(points,Time) #first need to create the trajectory
 
     current_configuration = currConfiguration

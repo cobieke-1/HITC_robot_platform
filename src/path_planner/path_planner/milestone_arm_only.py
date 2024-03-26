@@ -2,21 +2,21 @@ import modern_robotics as mr
 import numpy as np
 
 
-start = [-((450 + 120)* 0.001), (-200* 0.001)]
-goal =  [-((450 + 120 + 250)* 0.001), (200 * 0.001)]
+start = [((450 + 120)* 0.001), (-200* 0.001)]
+goal =  [((450 + 120 + 250)* 0.001), (200 * 0.001)]
 baseL1 = 120 * 0.001
 L12 = 350 * 0.001
 L2e = 450 * 0.001
 
 M_0e = np.array([[1, 0, 0, baseL1+L2e],[0, 1, 0, -L12], [0, 0, 1, 0],[0, 0, 0, 1]])
-B1 = [0,0,-1,L12,L2e,0]
+B1 = [0,0,1,L12,L2e,0] #joint screw axis
 B2 = [0,0,1,0,L2e,0]
-B3 = [0,0,-1,0,0,0]
+B3 = [0,0,1,0,0,0]
 B = [B1,B2,B3]
 
 T_sei = M_0e # initial position of end-effector with respect to reference frame
 T_sci = np.array([[1,0,0,start[0]], [0,1,0,start[1]], [0,0,1,0], [0,0,0,1]]) # start position 
-T_scg = np.array([[0,1,0,goal[0]], [-1,0,0,goal[1]], [0,0,1,0],[0,0,0,1]]) # end position
+T_scg = np.array([[1,0,0,goal[0]], [0,1,0,goal[1]], [0,0,1,0],[0,0,0,1]]) # end position
 # T_ce_standoff = np.array([[0.169967, 0.0, 0.98545,0], [0,1,0,0], [-0.98545, 0.0, 0.169967,0.3], [0,0,0,1]])
 # T_ce_grasp = np.array([[-np.cos(45),0,np.cos(45),0.005], [0,1,0,0], [-np.sin(45),0,-np.sin(45),0], [0,0,0,1]])
 
@@ -258,8 +258,8 @@ def isJacobianSingular(jacobian):
 FINAL STEP : Completeing the Project 
 -------------------------------------------------------------------------------------
 '''
-def traverseMaze(T_sci, T_scg, currConfiguration, T_sei, Kp, Ki):
-
+# def traverseMaze(T_sci, T_scg, currConfiguration, T_sei, Kp, Ki):
+def traverseMaze(start_Transform, endTransform, remaining_waypoint_Tranforms, currConfiguration, Kp, Ki):
     '''
     - first need to create the trajectory
     - use our control system to follow the trajectory
@@ -271,7 +271,7 @@ def traverseMaze(T_sci, T_scg, currConfiguration, T_sei, Kp, Ki):
     fullConfigurationList = []
     error = []
     Time = 5 #seconds between each point in the transition
-    points = [T_sei, T_sci, T_scg]
+    points = [start_Transform, *remaining_waypoint_Tranforms, endTransform]
     refTrajList = TrajectoryGenerator(points,Time) #first need to create the trajectory
 
     current_configuration = currConfiguration

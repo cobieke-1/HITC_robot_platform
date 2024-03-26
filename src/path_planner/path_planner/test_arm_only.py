@@ -40,7 +40,7 @@ print("Testing Milestone 2 : TrajectoryGenerator")
 Time = 4 #time for each transition between points.
 
 trajectory = m.TrajectoryGenerator([m.T_sei, m.T_sci, m.T_scg],Time)
-m.createCSV(trajectory,"path_planner/milestone2.csv")
+m.createCSV(trajectory,"/home/chris/capstone/hitc_ws/src/path_planner/path_planner/milestone2.csv")
 
 
 #testing Feedforward control
@@ -69,7 +69,12 @@ print("Testing Final step : Completing the Project and Your Submission")
 
 theta = [0,0,0] # joint angles
 currConfiguration = theta
-m.traverseMaze(m.T_sci, m.T_scg, currConfiguration, m.T_sei, np.eye(6), np.eye(6)*20)
+baseL1 = 120 * 0.001
+L12 = 350 * 0.001
+L2e = 450 * 0.001
+start_point = np.array([[1, 0, 0, baseL1+L2e],[0, 1, 0, -L12], [0, 0, 1, 0],[0, 0, 0, 1]])
+end_point = np.array([[1, 0, 0, 0.001*(450+175+120)],[0, 1, 0, -303.108*0.001], [0, 0, 1, 0],[0, 0, 0, 1]])
+m.traverseMaze(start_point, m.T_scg, [m.T_sci], currConfiguration, np.eye(6), np.eye(6)*20)
 
 
 
