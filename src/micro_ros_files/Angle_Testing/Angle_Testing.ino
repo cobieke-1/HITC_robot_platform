@@ -18,13 +18,13 @@ void setup() {
   Wire.begin();
   Wire1.begin();
 
-  as5600.begin();  //  set direction pin.
+  as5600.begin(); 
   as5600.setDirection(AS5600_CLOCK_WISE);
   Serial.print("Connect device 1: ");
   Serial.println(as5600.isConnected() ? "true" : "false");
   delay(1000);
   
-  as5600_2.begin();  //  set direction pin.
+  as5600_2.begin();  
   as5600_2.setDirection(AS5600_COUNTERCLOCK_WISE);
   Serial.println("Connect device 2: ");
   Serial.println(as5600_2.isConnected() ? "true" : "false");

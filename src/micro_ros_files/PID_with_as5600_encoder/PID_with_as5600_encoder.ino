@@ -45,7 +45,7 @@ void setup()
   
   //Motor encoder-related
   as5600.begin();  //  start as5600 encoder.
-  as5600.setDirection(AS5600_CLOCK_WISE);
+  as5600.setDirection(AS5600_COUNTERCLOCK_WISE);
   Serial.print("Connect device 1: ");
   Serial.println(as5600.isConnected() ? "true" : "false");
   delay(1000);
@@ -80,9 +80,9 @@ void loop()
 }
 void checkCurrTarget()
 {
- targetPosition = 80.0; // target will just be 30 degreees for now.
+ targetPosition = 160.0; // target will just be 30 degreees for now.
  Serial.print(targetPosition);
- Serial.print(" ")
+ Serial.print(" ");
 } 
 
 void checkEncoder()
