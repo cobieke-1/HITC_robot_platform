@@ -11,8 +11,8 @@ class PlatformStatePublisherNode(Node):
         super().__init__("state_publisher")
         self.get_logger().info("State_publisher node started.")
         self.publisher_ = self.create_publisher(JointState, 'joint_states', 10)
-        self.publisher_micro_ros = self.create_publisher(Float32MultiArray, '/micro_ros_arduino_subscriber',10)
-        self.subscriber_ = self.create_subscription(Float32MultiArray,'/micro_ros_arduino_node_publisher', self.subscriber_send_angles,10)
+        self.publisher_micro_ros = self.create_publisher(Float32MultiArray, '/trajectory_for_esp32',10)
+        # self.subscriber_ = self.create_subscription(Float32MultiArray,'/micro_ros_arduino_node_publisher', self.subscriber_send_angles,10)
         self.timer = self.create_timer(0.01, self.timer_publish_angles_to_esp)
 
         
@@ -24,7 +24,6 @@ class PlatformStatePublisherNode(Node):
                     self.results.append(row)
 
         self.waypoint_index = 0 # Current waypoint index.
-
         # just test variables below.
         self.test_publish = Float32MultiArray()
         self.test_publish.data = [0.01, 0.45]
@@ -41,17 +40,18 @@ class PlatformStatePublisherNode(Node):
         l2e = float((self.results[self.waypoint_index][2]))
 
         motor_joints = Float32MultiArray()
-        motor_joints.data = [bl1,l12]
+        motor_joints.data = [bl1,l12] # the last joint is not actuated so no need to send it.
     
         self.publisher_micro_ros.publish(motor_joints)
 
+# should comment out code below after you confirm joints have been sent to esp32 correctly.
         joints.position = [bl1,l12,l2e]
         if (self.waypoint_index < len(self.results)-1):
             self.waypoint_index += 1
         self.publisher_.publish(joints)
 
      
-    
+    '''
     def subscriber_send_angles(self, msg): # after recieving the encoder's angles then send these angles to the robot simulation (subscriber callback)
        # Configuring joint message to be sent
         # Update joint state
@@ -72,7 +72,8 @@ class PlatformStatePublisherNode(Node):
         if (self.waypoint_index < len(self.results)-1):
             self.waypoint_index += 1
         self.publisher_.publish(joints)
-
+    '''
+    
 def main(args=None):
     rclpy.init(args=args)
     node = PlatformStatePublisherNode()

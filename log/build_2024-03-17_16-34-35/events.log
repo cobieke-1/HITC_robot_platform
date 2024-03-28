@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000102] (-) JobUnselected: {'identifier': 'camera_capture'}
-[0.000127] (-) JobUnselected: {'identifier': 'hitc_robot_description'}
-[0.000253] (-) JobUnselected: {'identifier': 'laser_pointer'}
-[0.000322] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
-[0.000357] (-) JobUnselected: {'identifier': 'path_planner'}
-[0.000374] (-) JobUnselected: {'identifier': 'state_publisher_py'}
-[0.000390] (-) JobUnselected: {'identifier': 'trajectory_generator'}
-[0.000405] (-) EventReactorShutdown: {}

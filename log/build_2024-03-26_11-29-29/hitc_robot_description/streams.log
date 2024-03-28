@@ -1,0 +1,54 @@
+[1.298s] Invoking command in '/home/chris/capstone/hitc_ws/build/hitc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/trajectory_generator:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/camera_capture:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake /home/chris/capstone/hitc_ws/src/hitc_robot_description -DCMAKE_INSTALL_PREFIX=/home/chris/capstone/hitc_ws/install/hitc_robot_description
+[2.677s] -- The C compiler identification is GNU 11.4.0
+[2.678s] -- The CXX compiler identification is GNU 11.4.0
+[2.678s] -- Detecting C compiler ABI info
+[2.678s] -- Detecting C compiler ABI info - done
+[2.678s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.678s] -- Detecting C compile features
+[2.678s] -- Detecting C compile features - done
+[2.678s] -- Detecting CXX compiler ABI info
+[2.678s] -- Detecting CXX compiler ABI info - done
+[2.679s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.679s] -- Detecting CXX compile features
+[2.680s] -- Detecting CXX compile features - done
+[2.680s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.680s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.681s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.681s] -- Configuring done
+[2.681s] -- Generating done
+[2.681s] -- Build files have been written to: /home/chris/capstone/hitc_ws/build/hitc_robot_description
+[3.096s] Invoked command in '/home/chris/capstone/hitc_ws/build/hitc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/trajectory_generator:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/camera_capture:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake /home/chris/capstone/hitc_ws/src/hitc_robot_description -DCMAKE_INSTALL_PREFIX=/home/chris/capstone/hitc_ws/install/hitc_robot_description
+[3.096s] Invoking command in '/home/chris/capstone/hitc_ws/build/hitc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/trajectory_generator:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/camera_capture:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --build /home/chris/capstone/hitc_ws/build/hitc_robot_description -- -j12 -l12
+[3.131s] Invoked command in '/home/chris/capstone/hitc_ws/build/hitc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/trajectory_generator:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/camera_capture:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --build /home/chris/capstone/hitc_ws/build/hitc_robot_description -- -j12 -l12
+[3.165s] Invoking command in '/home/chris/capstone/hitc_ws/build/hitc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/trajectory_generator:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/camera_capture:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --install /home/chris/capstone/hitc_ws/build/hitc_robot_description
+[3.172s] -- Install configuration: ""
+[3.172s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//config
+[3.172s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//config/joint_names_hitc_robot_description.yaml
+[3.172s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch
+[3.172s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch/gazebo.launch
+[3.173s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch/display.launch
+[3.173s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes
+[3.173s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/link1.STL
+[3.174s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/end_effector.STL
+[3.174s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/link2.STL
+[3.175s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/base_link.STL
+[3.176s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf
+[3.176s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf/hitc_robot_description.csv
+[3.176s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf/hitc_robot_description.urdf
+[3.177s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//textures
+[3.177s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/package_run_dependencies/hitc_robot_description
+[3.177s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/parent_prefix_path/hitc_robot_description
+[3.177s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/ament_prefix_path.sh
+[3.177s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/ament_prefix_path.dsv
+[3.178s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/path.sh
+[3.178s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/path.dsv
+[3.178s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.bash
+[3.178s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.sh
+[3.178s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.zsh
+[3.178s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.dsv
+[3.178s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/package.dsv
+[3.179s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/packages/hitc_robot_description
+[3.179s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/cmake/hitc_robot_descriptionConfig.cmake
+[3.179s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/cmake/hitc_robot_descriptionConfig-version.cmake
+[3.179s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/package.xml
+[3.181s] Invoked command in '/home/chris/capstone/hitc_ws/build/hitc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/trajectory_generator:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/path_planner:/home/chris/capstone/hitc_ws/install/laser_pointer:/home/chris/capstone/hitc_ws/install/camera_capture:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --install /home/chris/capstone/hitc_ws/build/hitc_robot_description

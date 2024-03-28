@@ -1,1 +1,2 @@
-/home/chris/capstone/hitc_ws/build/hitc_robot_description/ament_cmake_environment_hooks/local_setup.dsv
+source;share/hitc_robot_description/environment/ament_prefix_path.sh
+source;share/hitc_robot_description/environment/path.sh

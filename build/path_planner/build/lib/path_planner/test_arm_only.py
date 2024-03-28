@@ -69,9 +69,12 @@ print("Testing Final step : Completing the Project and Your Submission")
 
 theta = [0,0,0] # joint angles
 currConfiguration = theta
-
-start_point = np.array([[1, 0,]])
-m.traverseMaze(m.T_sci, m.T_scg, [m.T_sei], currConfiguration, np.eye(6), np.eye(6)*20)
+baseL1 = 120 * 0.001
+L12 = 350 * 0.001
+L2e = 450 * 0.001
+start_point = np.array([[1, 0, 0, baseL1+L2e],[0, 1, 0, -L12], [0, 0, 1, 0],[0, 0, 0, 1]])
+end_point = np.array([[1, 0, 0, 0.001*(450+175+120)],[0, 1, 0, -303.108*0.001], [0, 0, 1, 0],[0, 0, 0, 1]])
+m.traverseMaze(start_point, m.T_scg, [m.T_sci], currConfiguration, np.eye(6), np.eye(6)*20)
 
 
 
