@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import random
 from trajectory_generator.RRTAlgorithm import RRTAlgorithm
 #settings of python plots
+from PIL import Image, ImageOps
 from matplotlib.pyplot import rcParams
 
 class student_trajectory:
-
-    def run_algorithm():  
+    def run_algorithm(self,start, goal,processed_image_path = "/home/chris/capstone/hitc_ws/src/trajectory_generator/trajectory_generator/Converted_Maze.png"):  
 
         np.set_printoptions(precision=3, suppress=True)
         rcParams['font.family'] = 'sans-serif'
@@ -15,9 +15,14 @@ class student_trajectory:
         plt.rcParams['font.size'] = 22
         #load the frid, set start and gaol <x,y> positions, number of iterations, step size
         # 0,0 is top left corner
+
+        image = Image.open(processed_image_path)
+        np_img = np.array(image)
+        np.save('/home/chris/capstone/hitc_ws/src/trajectory_generator/trajectory_generator/Converted_Maze.npy', np_img)
+
         grid = np.load('/home/chris/capstone/hitc_ws/src/trajectory_generator/trajectory_generator/Converted_Maze.npy')
-        start = np.array([1228.864, 107.367])
-        goal = np.array([311.630, 800.650])
+        # start = np.array([1228.864, 107.367])
+        # goal = np.array([311.630, 800.650])
 
 
         numIterations = 1000
@@ -76,3 +81,9 @@ class student_trajectory:
         plt.show()
 
         return list(rrt.Waypoints) # already a list() object
+    
+    # def convertImgToNpy(self,image_path):
+    #     image = Image.open(image_path)
+    #     np_img = np.array(image)
+    #     np.save('/home/chris/capstone/hitc_ws/src/trajectory_generator/trajectory_generator/Converted_Maze.npy', np_img)
+        

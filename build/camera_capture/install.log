@@ -1,11 +1,11 @@
 /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__init__.py
-/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/motor_controller.py
-/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/safety_system.py
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/workspace_processing.py
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/send_workspace.py
 /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/image_processing.py
 /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/camera_capture.py
 /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__pycache__/__init__.cpython-310.pyc
-/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__pycache__/motor_controller.cpython-310.pyc
-/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__pycache__/safety_system.cpython-310.pyc
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__pycache__/workspace_processing.cpython-310.pyc
+/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__pycache__/send_workspace.cpython-310.pyc
 /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__pycache__/image_processing.cpython-310.pyc
 /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__pycache__/camera_capture.cpython-310.pyc
 /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index/resource_index/packages/camera_capture

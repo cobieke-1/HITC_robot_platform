@@ -4,8 +4,8 @@
 
 Servo servo1;
 Servo servo2;
-int servo1Pin = 18;
-int servo2Pin = 19;
+int servo1Pin = 5;
+int servo2Pin = 4;
 
 void setup() {
   // put your setup code here, to run once:

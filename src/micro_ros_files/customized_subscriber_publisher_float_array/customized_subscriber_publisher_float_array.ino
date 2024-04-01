@@ -48,6 +48,23 @@ void subscription_callback(const void * msgin)
 }
 
 
+void initializeFloatMsg(std_msgs__msg__Float32MultiArray (&msg), int givenCapacity)
+{
+  
+  msg.data.capacity = givenCapacity; 
+  msg.data.size = 0;
+  msg.data.data = (float*) malloc(msg.data.capacity * sizeof(float));
+  
+  msg.layout.dim.capacity = givenCapacity;
+  msg.layout.dim.size = 0;
+  msg.layout.dim.data = (std_msgs__msg__MultiArrayDimension*) malloc(msg.layout.dim.capacity * sizeof(std_msgs__msg__MultiArrayDimension));
+  
+  for(size_t i = 0; i < msg.layout.dim.capacity; i++){
+    msg.layout.dim.data[i].label.capacity = givenCapacity;
+    msg.layout.dim.data[i].label.size = 0;
+    msg.layout.dim.data[i].label.data = (char*) malloc(msg.layout.dim.data[i].label.capacity * sizeof(char));
+  }
+}
 
 void setup() {
   set_microros_transports();
@@ -81,19 +98,19 @@ void setup() {
 
 
   // Initialize float Array
-  test_msg.data.capacity = 1;
-  test_msg.data.size = 0;
-  test_msg.data.data = (float*) malloc(test_msg.data.capacity * sizeof(float));
-
-  test_msg.layout.dim.capacity = 100;
-  test_msg.layout.dim.size = 0; // currently nothing in the array
-  test_msg.layout.dim.data = (std_msgs__msg__MultiArrayDimension *) malloc(test_msg.layout.dim.capacity * sizeof(std_msgs__msg__MultiArrayDimension));
-
-  for(int i = 0; i < test_msg.layout.dim.capacity; i++){
-    test_msg.layout.dim.data[i].label.capacity = 20;
-    test_msg.layout.dim.data[i].label.size = 0;
-    test_msg.layout.dim.data[i].label.data = (char*) malloc(test_msg.layout.dim.data[i].label.capacity * sizeof(char));
-  }
+//  test_msg.data.capacity = 1;
+//  test_msg.data.size = 0;
+//  test_msg.data.data = (float*) malloc(test_msg.data.capacity * sizeof(float));
+//
+//  test_msg.layout.dim.capacity = 100;
+//  test_msg.layout.dim.size = 0; // currently nothing in the array
+//  test_msg.layout.dim.data = (std_msgs__msg__MultiArrayDimension *) malloc(test_msg.layout.dim.capacity * sizeof(std_msgs__msg__MultiArrayDimension));
+//
+//  for(int i = 0; i < test_msg.layout.dim.capacity; i++){
+//    test_msg.layout.dim.data[i].label.capacity = 20;
+//    test_msg.layout.dim.data[i].label.size = 0;
+//    test_msg.layout.dim.data[i].label.data = (char*) malloc(test_msg.layout.dim.data[i].label.capacity * sizeof(char));
+//  }
 
   // assign value t float array msg 
 //  float initialization[2] = {1.01, 2.01};
@@ -103,20 +120,25 @@ void setup() {
 
 
   // For the subscriber message we still need to initialize it before we hand it over to the executor. We don't need to assigna a value but it must be initialized.
+//
+//  msg.data.capacity = 3; 
+//  msg.data.size = 0;
+//  msg.data.data = (float*) malloc(msg.data.capacity * sizeof(float));
+//  
+//  msg.layout.dim.capacity = 3;
+//  msg.layout.dim.size = 0;
+//  msg.layout.dim.data = (std_msgs__msg__MultiArrayDimension*) malloc(msg.layout.dim.capacity * sizeof(std_msgs__msg__MultiArrayDimension));
+//  
+//  for(size_t i = 0; i < msg.layout.dim.capacity; i++){
+//    msg.layout.dim.data[i].label.capacity = 3;
+//    msg.layout.dim.data[i].label.size = 0;
+//    msg.layout.dim.data[i].label.data = (char*) malloc(msg.layout.dim.data[i].label.capacity * sizeof(char));
+//  }
 
-  msg.data.capacity = 3; 
-  msg.data.size = 0;
-  msg.data.data = (float*) malloc(msg.data.capacity * sizeof(float));
-  
-  msg.layout.dim.capacity = 3;
-  msg.layout.dim.size = 0;
-  msg.layout.dim.data = (std_msgs__msg__MultiArrayDimension*) malloc(msg.layout.dim.capacity * sizeof(std_msgs__msg__MultiArrayDimension));
-  
-  for(size_t i = 0; i < msg.layout.dim.capacity; i++){
-    msg.layout.dim.data[i].label.capacity = 3;
-    msg.layout.dim.data[i].label.size = 0;
-    msg.layout.dim.data[i].label.data = (char*) malloc(msg.layout.dim.data[i].label.capacity * sizeof(char));
-  }
+  initializeFloatMsg(test_msg, 2);
+  // Initiallizing message (float array)
+
+  initializeFloatMsg(msg, 2);
 
   // create executor
   RCCHECK(rclc_executor_init(&executor_sub, &support.context, 1, &allocator));

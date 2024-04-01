@@ -11,7 +11,9 @@ setup.py
 path_planner/__init__.py
 path_planner/cartesian_to_radians.py
 path_planner/milestone_arm_only.py
+path_planner/modular_path_planner.py
 path_planner/test_arm_only.py
+path_planner/test_modular_path_planner.py
 path_planner/modern_robotics/__init__.py
 path_planner/modern_robotics/__version__.py
 path_planner/modern_robotics/app.py

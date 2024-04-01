@@ -49,7 +49,7 @@ void setup()
   
   //Motor encoder-related ( for one joint)
   as5600.begin();  //  start as5600 encoder.
-  as5600.setDirection(AS5600_COUNTERCLOCK_WISE);
+  as5600.setDirection(AS5600_CLOCK_WISE);
   Serial.print("Connect device 1: ");
   Serial.println(as5600.isConnected() ? "true" : "false");
   delay(1000);
@@ -60,8 +60,8 @@ void setup()
 //  Serial.println(as5600_2.isConnected() ? "true" : "false");
 //  delay(1000);
 
-  stepper1.setMaxSpeed(200); // stepper1.setMaxSpeed(200) // if the stepper driver is in full step mode this means the max is 200 steps per second.
-  stepper1.setAcceleration(100); //100 steps per second square.
+  stepper1.setMaxSpeed(32000); // stepper1.setMaxSpeed(200) // if the stepper driver is in full step mode this means the max is 200 steps per second.
+  stepper1.setAcceleration(6000); //100 steps per second square.
 
 //------------------------------------------------------------------------------//
 
@@ -124,6 +124,7 @@ void driveMotor(AccelStepper stepper, float controlSignal)
   if(fabs(controlSignal) > 5) // currently set to within +/- 5 degrees per step
   {
     stepper.setSpeed(controlSignal*20);
+//    stepper.setAcceleration(3000); // 1/32 steps
   }
   else
   {

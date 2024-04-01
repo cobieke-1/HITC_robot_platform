@@ -77,6 +77,7 @@ class RRTAlgorithm():
 
             testPoint[0] = min(testPoint[0], grid.shape[1]-1)
             testPoint[1] = min(testPoint[1], grid.shape[0]-1)
+            print("grid: ", self.grid[testPoint[1], testPoint[0]])
             if self.grid[testPoint[1], testPoint[0]] == 1:
                 return True
         return False
