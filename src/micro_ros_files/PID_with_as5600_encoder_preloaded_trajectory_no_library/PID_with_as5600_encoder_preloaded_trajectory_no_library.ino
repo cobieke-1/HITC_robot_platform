@@ -1554,9 +1554,10 @@ float preloaded_trajectory[1499][2] = {
 
 
 int i = 0;
+int debounce = 0;
 void setup()
 {
-  Serial.begin(115200);
+//  Serial.begin(115200);
 
 //--------------------Joint 1----------------------------------------------------//  
   Serial.begin(115200);
@@ -1564,30 +1565,34 @@ void setup()
   Wire1.setPins(SDA_2, SCL_2);
   Wire.begin();
   Wire1.begin();
+
+  
+  
 //
 //  Wire.setClock(800000L); //fast clock
 //  Wire1.setClock(800000L); //fast clock
 
-  checkMagnetPresence(1); // check sensor 1, check the magnet (blocks until magnet is found)
+//  checkMagnetPresence(1); // check sensor 1, check the magnet (blocks until magnet is found)
+//  Serial.print("Hello");
 //  checkMagnetPresence(2); // check sensor 2
   
   ReadRawAngle(1); //make a reading so the degAngle gets updated
-//  ReadRawAngle(2);
+  ReadRawAngle(2);
   
   startAngle[0] = degAngle[0]; //update startAngle with degAngle - for taring
   startAngle[1] = degAngle[1];
 
-  Serial.print(degAngle[0]);
-  Serial.print(", ");
-  Serial.println(degAngle[1]);
+//  Serial.print(degAngle[0]);
+//  Serial.print(", ");
+//  Serial.println(degAngle[1]);
   
   stepper1.setMaxSpeed(32000); // stepper1.setMaxSpeed(200) // if the stepper driver is in full step mode this means the max is 200 steps per second.
-  stepper1.setAcceleration(32000); //100 steps per second square.
+  stepper1.setAcceleration(3200); //100 steps per second square.
 
   sending_timer = millis();
 //------------------------------------------------------------------------------//
 
-//--------------------Joint 2 via can bus---------------------------------------//  
+//--------------------Joint 2 via uart---------------------------------------//  
 
 
  
@@ -1615,10 +1620,13 @@ void loop()
   delay(1);
 }
 
-void checkSlip(){
+void checkSlip(int maxDifference, int numofDebounceChecks){
   if(!complianceMode){
-     if(abs(totalAngle[0] - totalAngle[1]) > 8){
+     debounce += 1;
+     
+     if(abs(totalAngle[0] - totalAngle[1]) > maxDifference && debounce > numofDebounceChecks){
       complianceMode = 1;
+      debounce = 0;
     }
   }
  
@@ -1634,23 +1642,27 @@ void move_motors(float angles[2])
  
   float control1;
   // PID algorithm j1
-  checkSlip();
+  checkSlip(30,3000);
   if(!complianceMode){
      control1 = calculatePID(j1CurrPosition,j1Target,1);
   }else
   {
-    control1 = calculatePID(j1CurrPosition,totalAngle[1],1); // follow encoder 2 (compliance mode)
+     control1 = calculatePID(j1CurrPosition,totalAngle[1],1); // follow encoder 2 (compliance mode)
   }
 
   Serial.print(j1Target);
   Serial.print(", ");
   Serial.print(totalAngle[0]); //encoder 1
+  Serial.print(", ");
+  Serial.println(totalAngle[1]); // encoder2
+
+//  Serial.print(",");
+//  Serial.print(complianceMode);
 //  Serial.print(", ");
-  Serial.print(totalAngle[1]); // encoder2
-//  Serial.print(", ");
+//  Serial.print(abs(totalAngle[0] - totalAngle[1]));
 //  Serial.println(controlSignal);
 
-  Serial.println();
+//  Serial.println();
  
 
   driveMotor(stepper1, control1); //changes to use Accel stepper library
@@ -1674,10 +1686,10 @@ float calculatePID(float currPosition, float Target, int jointNum)
   
 void driveMotor(AccelStepper stepper, float controlSignal)
 {
-  int tolerance = 20;
+  int tolerance = 5;
 
   if(complianceMode){
-    tolerance = 100;
+    tolerance = 10;
   }
   if(fabs(controlSignal) > tolerance) // currently set to within +/- 5 steps
   {
@@ -1701,8 +1713,9 @@ void checkMagnetPresence(int sensor_index)
   while((magnetStatus[sensor_index-1] & 32) != 32) //while the magnet is not adjusted to the proper distance - 32: MD = 1  (0xb100000)
   {
     magnetStatus[sensor_index-1] = 0; //reset reading
-
+    
     if(sensor_index-1 == 0){
+      
       Wire.beginTransmission(0x36); //connect to the sensor
       Wire.write(0x0B); //figure 21 - register map: Status: MD ML MH
       Wire.endTransmission(); //end transmission
@@ -1710,9 +1723,11 @@ void checkMagnetPresence(int sensor_index)
   
       while(Wire.available() == 0); //wait until it becomes available 
       magnetStatus[sensor_index-1] = Wire.read(); //Reading the data after the request
+//      Serial.print("sensor1 has its magnet... ");
     }
 
     if(sensor_index-1 == 1){
+     
       Wire1.beginTransmission(0x36); //connect to the sensor
       Wire1.write(0x0B); //figure 21 - register map: Status: MD ML MH
       Wire1.endTransmission(); //end transmission
@@ -1720,6 +1735,7 @@ void checkMagnetPresence(int sensor_index)
   
       while(Wire1.available() == 0); //wait until it becomes available 
       magnetStatus[sensor_index-1] = Wire1.read(); //Reading the data after the request
+//      Serial.print("sensor2 has its magnet... ");
     }    
   }       
 }

@@ -5,11 +5,15 @@ from rclpy.node import Node
 from sensor_msgs.msg import JointState
 from std_msgs.msg import Float32MultiArray
 from camera_capture import workspace_processing as wp
+from camera_capture import RRT
+from camera_capture import image_convert
+from camera_capture import obstacleExtractor
 from trajectory_generator.student_trajectory_algorithm import student_trajectory
 from path_planner import modular_path_planner as m
 from path_planner import modern_robotics as mr
 import numpy as np
 import math
+
 
 
 # make robot object for testing
@@ -25,13 +29,19 @@ State Publisher publishes the joints for both the 2 dof robot arm and the laser 
 class PlatformStatePublisherNode(Node):
     def __init__(self):
         super().__init__("state_publisher")
-        self.get_logger().info("State_publisher node started.")
-
-
-        [start, goal] = wp.get_maze_details() #get start, goal, and grayscale image of workspace from  camera for 2 dof arm
+        self.get_logger().info("State_publisher node started now.")
+        # mainpoints = wp.get_maze_details() #get start, goal, and grayscale image of workspace from  camera for 2 dof arm
+        # start = mainpoints[0]
+        # goal = mainpoints[1]
         # self.recieved_waypoints = student_trajectory.run_algorithm(start,goal,"/home/chris/capstone/hitc_ws/src/trajectory_generator/trajectory_generator/Converted_Maze.png") # perception planning of robot path.
-        self.given_waypoints = [[450+120, -350],[450+120, -200]] #,[120 + 450 + 250, -200], [120 + 450 + 250, 200]] # in mm
-        self.recieved_waypoints = [[point[0]*0.001, point[1]*0.001] for point in self.given_waypoints] # in meters.
+        image_convert.updateMaze()
+        obstacleExtractor.locate_obstacles()
+        self.waypoint_list = RRT.solveMaze()
+        # print(self.waypoint_list)
+        # self.given_waypoints = [[450+120, -350],[450+120, -200]] #,[120 + 450 + 250, -200], [120 + 450 + 250, 200]] # in mm
+        # self.recieved_waypoints = [[point[0]*0.001, point[1]*0.001] for point in self.given_waypoints] # in meters.
+
+        self.recieved_waypoints = [[(-point[1] + (450 + 120+ 500)+461)*0.6*0.001, (-point[0]+329-30)*0.668*0.001] for point in self.waypoint_list]
         twoDofArm = m.myRobot()
         laserPointer = m.myRobot()
 
@@ -70,7 +80,15 @@ class PlatformStatePublisherNode(Node):
         # body_screw_axis = [B1,B2,B3,B4,B5]
 
         # laserPointer.setup(home_config,body_screw_axis)
-
+        # waypoints = [[point[0]*0.001, point[1]*0.001] for point in waypoints] # in meters.
+        waypoints_transforms = []
+        for point in self.recieved_waypoints:
+            waypoints_transforms.append(twoDofArm.coordinatesToTransforms(*point))
+        pathname = "/home/chris/capstone/hitc_ws/src/state_publisher_py/state_publisher_py/joint_angle_trajectory.csv"
+        # pathname = "/home/chris/capstone/hitc_ws/src/state_publisher_py/state_publisher_py/twoDofArm_moreSamples.csv"
+        # Tgoal = np.array([[1, 0, 0, 79.1*0.001],[0, 1, 0, -200*0.001], [0, 0, 1, 0],[0, 0, 0, 1]])
+        # waypoints_transforms = [home_config, Tgoal]
+        twoDofArm.traverseGivenPath(waypoints_transforms, thetaTwoDof, np.eye(6), np.eye(6)*20, pathname)
         # twoDofArm.traverseGivenPath(self.recieved_waypoints, thetaTwoDof, np.eye(6), np.eye(6)*20, '/home/chris/capstone/hitc_ws/src/state_publisher_py/state_publisher_py/joint_angle_trajectory.csv')
         # laserPointer.traverseGivenPath(self.recieved_waypoints, thetaLaser, np.eye(6), np.eye(6)*20, '/home/chris/capstone/hitc_ws/src/state_publisher_py/state_publisher_py/laser_angle_trajectory.csv')
 
@@ -78,8 +96,8 @@ class PlatformStatePublisherNode(Node):
 
         self.joint_angle_trajectory = []
         # When node starts the trajectory must already be in the working directory.  We will then put csv trajectory into an array and send each waypoint to the robot later.
-        with open('/home/chris/capstone/hitc_ws/src/state_publisher_py/state_publisher_py/twoDofArm_moreSamples.csv', newline='') as csvfile:
-                file1 = open('/home/chris/capstone/hitc_ws/src/state_publisher_py/state_publisher_py/joint_trajectory.txt', 'w')
+        with open('/home/chris/capstone/hitc_ws/src/state_publisher_py/state_publisher_py/joint_angle_trajectory.csv', newline='') as csvfile:
+                file1 = open('/home/chris/capstone/hitc_ws/src/state_publisher_py/state_publisher_py/joint_trajectory_other.txt', 'w')
                 L = []
                 csvreader = csv.reader(csvfile, delimiter=',')
                 L.append('{\n')
@@ -148,7 +166,7 @@ class PlatformStatePublisherNode(Node):
         self.publisher_ = self.create_publisher(JointState, 'joint_states', 10)
         self.publisher_micro_ros = self.create_publisher(Float32MultiArray, '/student_trajectory',10)
         self.subscriber_ = self.create_subscription(Float32MultiArray,'/encoder_readings', self.publish_readings,10)
-        self.timer = self.create_timer(0.005, self.timer_publish_angles_to_esp)
+        self.timer = self.create_timer(0.001, self.timer_publish_angles_to_esp)
         
     def timer_publish_angles_to_esp(self): #should send jointangles to esp32 (currently still sends directly to robot simulation)
 

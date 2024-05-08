@@ -8,9 +8,9 @@ AccelStepper stepper1(1,stepPin, dirPin);
 
 void setup() {
   // put your setup code here, to run once:
-  stepper1.setMaxSpeed(6400); // stepper1.setMaxSpeed(200) // if the stepper driver is in full step mode this means the max is 200 steps per second.
-  stepper1.setAcceleration(3000); //100 steps per second square.
-  stepper1.moveTo(6400);
+  stepper1.setMaxSpeed(200); // stepper1.setMaxSpeed(200) // if the stepper driver is in full step mode this means the max is 200 steps per second.
+  stepper1.setAcceleration(200); //100 steps per second square.
+  stepper1.moveTo(1000);
 }
 
 void loop() {

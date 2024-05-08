@@ -8,10 +8,15 @@ setup.py
 ../../build/camera_capture/camera_capture.egg-info/requires.txt
 ../../build/camera_capture/camera_capture.egg-info/top_level.txt
 ../../build/camera_capture/camera_capture.egg-info/zip-safe
+camera_capture/RRT.py
 camera_capture/__init__.py
 camera_capture/camera_capture.py
+camera_capture/image_convert.py
 camera_capture/image_processing.py
+camera_capture/obstacleExtractor.py
 camera_capture/send_workspace.py
+camera_capture/solveMaze.py
+camera_capture/treeNode.py
 camera_capture/workspace_processing.py
 resource/camera_capture
 test/test_copyright.py

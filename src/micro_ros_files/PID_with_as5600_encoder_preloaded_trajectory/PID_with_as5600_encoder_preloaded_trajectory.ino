@@ -1596,11 +1596,12 @@ void loop()
 
 void move_motors(float angles[2])
 {
+  
   // set up current target.
   float j1Target = angles[0];
 //  float j2Target = angles[1];
 
-//Serial.print("Target : ");
+Serial.print("Target : ");
 Serial.print(j1Target);
 
   // get encoder reading for both joints
@@ -1609,6 +1610,8 @@ Serial.print(j1Target);
 
 //Serial.print(" Position : ");
 Serial.print(",");
+
+Serial.print(" Position : ");
 Serial.print(j1CurrPosition);
 
   // PID algorithm j1

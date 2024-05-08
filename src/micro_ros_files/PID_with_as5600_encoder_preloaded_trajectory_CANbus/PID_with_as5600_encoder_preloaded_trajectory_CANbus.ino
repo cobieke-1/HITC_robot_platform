@@ -1650,12 +1650,13 @@ void move_motors(float angles[2])
   float control1;
   // PID algorithm j1
 //  checkSlip();
-//  if(!complianceMode){
+  if(!complianceMode){
      control1 = calculatePID(j1CurrPosition,j1Target,1);
-//  }else
-//  {
-//    control1 = calculatePID(j1CurrPosition,totalAngle[1],1);
-//  }
+  }
+  else
+  {
+    control1 = calculatePID(j1CurrPosition,totalAngle[1],1);
+  }
 
   Serial.print(j1Target);
   Serial.print(", ");
